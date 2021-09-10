@@ -722,6 +722,7 @@
 
 .titletextshadow {
   opacity: 0.7;
+  user-select: none;
 }
 
 .heading-3 {
@@ -898,6 +899,7 @@
   color: #fff;
   line-height: 0px;
   font-weight: 900;
+  user-select: none;
 }
 
 .outlinetext-2.low-outline {
@@ -1193,7 +1195,7 @@
   object-fit: fill;
 }
 
-.paragraph.marquee {
+.marquee {
   display: block;
   overflow: hidden;
   height: 100%;
@@ -1206,6 +1208,7 @@
   white-space: nowrap;
   -o-object-fit: fill;
   object-fit: fill;
+  user-select: none;
 }
 
 .paragraph.marquee.marquee-team {
