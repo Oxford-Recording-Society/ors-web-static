@@ -2171,15 +2171,6 @@
   font-weight: 500;
 }
 
-.heading-14 {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-family: 'Roboto Mono', sans-serif;
-  color: #fff;
-  font-size: 12px;
-  font-weight: 200;
-}
-
 .div-block-39 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2809,12 +2800,6 @@
   .heading-6 {
     color: #fff;
     font-size: 35px;
-  }
-
-  .column-13 {
-    font-family: 'Roboto Mono', sans-serif;
-    color: #fff;
-    font-weight: 100;
   }
 
   .heading-7 {
