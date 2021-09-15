@@ -86,19 +86,18 @@
 .nav-menu.nav-menu-landing {
   margin-top: 0px;
   margin-bottom: 30px;
-  margin-left: 37px;
+  margin-left: 36px;
 }
 
 .nav-link {
   display: inline-block;
   padding: 10px 15px;
-  opacity: 1;
   -webkit-transition: opacity 200ms ease, -webkit-transform 200ms ease;
   transition: opacity 200ms ease, -webkit-transform 200ms ease;
   transition: opacity 200ms ease, transform 200ms ease;
   transition: opacity 200ms ease, transform 200ms ease, -webkit-transform 200ms ease;
   color: #cfcfcf;
-  font-size: 15px;
+  font-size: 1rem;
   line-height: 15px;
   font-weight: 300;
   letter-spacing: 0.2px;
@@ -107,25 +106,16 @@
 
 .nav-link:hover {
   opacity: 1;
-  -webkit-transform: translate(0px, -2px);
-  -ms-transform: translate(0px, -2px);
-  transform: translate(0px, -2px);
+  -webkit-transform: translatey(-0.3em);
+  -ms-transform: translatey(-0.3em);
+  transform: translatey(-0.3em);
   color: #fff;
 }
 
 .nav-link.w--current {
   position: relative;
-  padding-top: 10px;
-  padding-right: 15px;
-  padding-left: 15px;
-  opacity: 1;
   color: #fff;
-  font-size: 15px;
-  line-height: 15px;
-  font-style: normal;
   font-weight: 300;
-  text-align: left;
-  letter-spacing: 0.2px;
 }
 .nav-link.w--current::before{
   content:'//';
@@ -2415,7 +2405,7 @@
   .div-block-13 {
     position: static;
     width: 50%;
-    margin-top: -37px;
+    margin-top: -36px;
     padding-bottom: 118px;
     padding-left: 0px;
     font-size: 150px;
