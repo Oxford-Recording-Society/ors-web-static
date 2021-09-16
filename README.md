@@ -1,2 +1,2 @@
-# oxfordrecordingsociety.com - Static resources
+# oxfordrecordingsoc.com - Static resources
 
