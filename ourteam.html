@@ -77,7 +77,7 @@
                 <p class="paragraph-7">The <span class="text-span">EXECUTIVE TEAM</span> oversees all areas of the Oxford Recording Society, including leading the committee and maintaining a long term vision for the direction the ORS wants to head in the future.</p>
               </div>
             </div>
-            <div id="jake" class="team-member-3">
+            <div id="jake" class="member-with-dropdown team-member-3">
               <div class="name-and-college">
                 <h1 class="heading-10">jake</h1>
                 <div class="college"><img src="images/worcester.png" loading="lazy" alt="" class="image-24">
@@ -90,7 +90,7 @@
                 <div class="text-block-6">// PRESIDENT</div>
               </div>
             </div>
-            <div id="wolff" class="team-member-3"><img src="images/wolff.jpg" loading="lazy" alt="" class="team-image">
+            <div id="wolff" class="member-with-dropdown team-member-3"><img src="images/wolff.jpg" loading="lazy" alt="" class="team-image">
               <div class="role-descriptor">
                 <div class="div-block-34"></div>
                 <div class="div-block-35"></div>
@@ -103,7 +103,7 @@
                 </div>
               </div>
             </div>
-            <div id="dan" class="team-member-3"><img src="images/Dan.jpg" loading="lazy" alt="" class="team-image">
+            <div id="dan" class="member-with-dropdown team-member-3"><img src="images/Dan.jpg" loading="lazy" alt="" class="team-image">
               <div class="role-descriptor">
                 <div class="div-block-34"></div>
                 <div class="div-block-35"></div>
@@ -326,28 +326,21 @@
   <script src="js/webflow.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   <script>
-$(jake).click(function(){
-  //block of code that runs when the click event triggers
-  if (!$(wolff).hasClass("team-member-3-big") && !$(dan).hasClass("team-member-3-big")) {
-		$(jake).toggleClass("team-member-3-big");
-    $(jaketriangle).toggle();
-    $(execdesccontainer).toggleClass("committee-desc-hidden");
+let open = null;
+
+$('.member-with-dropdown').click(function(ev){
+  const elem = ev.currentTarget;
+  $(".triangle-image").hide();
+  $(".team-member-3-big").removeClass("team-member-3-big");
+  if (open===elem.id){
+    open = null;
+    $(execdesccontainer).addClass("committee-desc-hidden");
   }
-});
-$(wolff).click(function(){
-  //block of code that runs when the click event triggers
-  if (!$(jake).hasClass("team-member-3-big") && !$(dan).hasClass("team-member-3-big")) {
-		$(wolff).toggleClass("team-member-3-big");
-    $(wolfftriangle).toggle();
-    $(execdesccontainer).toggleClass("committee-desc-hidden");
-  }
-});
-$(dan).click(function(){
-  //block of code that runs when the click event triggers
-  if (!$(wolff).hasClass("team-member-3-big") && !$(jake).hasClass("team-member-3-big")) {
-		$(dan).toggleClass("team-member-3-big");
-    $(dantriangle).toggle();
-    $(execdesccontainer).toggleClass("committee-desc-hidden");
+  else{
+    open = elem.id;
+    $('#'+elem.id+'triangle').show();
+    $(ev.target).addClass("team-member-3-big")
+    $(execdesccontainer).removeClass("committee-desc-hidden");
   }
 });
 </script>
