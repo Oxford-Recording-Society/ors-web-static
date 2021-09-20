@@ -1,0 +1,16 @@
+
+# Note: if you want to stage/commit WP core files
+# you can delete this whole section/until Configuration.
+/wp-admin/
+/wp-content/
+/wp-includes/
+
+/indexWP.php
+/license.txt
+/.htaccess
+/readme.html
+/wp-*.php
+/xmlrpc.php
+
+# Log files
+*.log
