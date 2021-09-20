@@ -1,6 +1,8 @@
-<!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Thu Sep 09 2021 18:41:45 GMT+0000 (Coordinated Universal Time)  -->
-<html data-wf-page="61391bc1bc7bea1aca6d9505" data-wf-site="61312cc3d820c1211b819fe5">
+<?php
+  require __DIR__ . '/wp-blog-header.php';
+?>
+<!DOCTYPE html>
+<html>
 <head>
   <meta charset="utf-8">
   <title>Committee | Oxford Recording Society</title>
@@ -11,8 +13,8 @@
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
   <link href="css/ors-webflow-help.webflow.css" rel="stylesheet" type="text/css">
-  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
-  <script type="text/javascript">WebFont.load({  google: {    families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic","Roboto Mono:300,regular,500,600,700,100italic,200italic,300italic,italic,500italic,600italic,700italic"]  }});</script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic","Roboto Mono:300,regular,500,600,700,100italic,200italic,300italic,italic,500italic,600italic,700italic"]  }});</script> -->
   <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
   <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
   <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
@@ -29,9 +31,13 @@
     -webkit-text-stroke: 0.4px #FFFFFF;
   }
 </style>
+<?php wp_head(); ?>
 </head>
 <body>
-  <div data-collapse="medium" data-animation="default" data-duration="400" id="nav-bar" role="banner" class="nav-bar nav-bar-landing nav-bar-other w-nav"><img src="images/ORSlogowhite.png" loading="lazy" id="nav-logo" alt="" class="nav-logo">
+<?php
+  get_template_part( 'template-parts/header/site-header' );
+  ?>
+  <!-- <div data-collapse="medium" data-animation="default" data-duration="400" id="nav-bar" role="banner" class="nav-bar nav-bar-landing nav-bar-other w-nav"><img src="images/ORSlogowhite.png" loading="lazy" id="nav-logo" alt="" class="nav-logo">
     <nav role="navigation" id="nav-menu" class="nav-menu w-nav-menu">
       <a href="index.html" class="nav-link w-nav-link">HOME</a>
       <a href="ourteam.html" aria-current="page" class="nav-link w-nav-link w--current">OUR TEAM</a>
@@ -41,7 +47,7 @@
     <div id="nav-buttons" class="nav-buttons">
       <a href="#" class="navbutton w-button">BECOME A MEMBER</a>
       <a href="#" class="navbutton button3 w-button">MEMBER LOG IN</a>
-    </div>
+    </div> -->
     <div class="w-nav-button">
       <div class="icon w-icon-nav-menu"></div>
     </div>
