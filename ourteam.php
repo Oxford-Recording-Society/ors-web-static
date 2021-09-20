@@ -34,9 +34,7 @@
 <?php wp_head(); ?>
 </head>
 <body>
-<?php
-  get_template_part( 'template-parts/header/site-header' );
-  ?>
+<?php get_template_part( 'template-parts/header/site-header' ); ?>
   <!-- <div data-collapse="medium" data-animation="default" data-duration="400" id="nav-bar" role="banner" class="nav-bar nav-bar-landing nav-bar-other w-nav"><img src="images/ORSlogowhite.png" loading="lazy" id="nav-logo" alt="" class="nav-logo">
     <nav role="navigation" id="nav-menu" class="nav-menu w-nav-menu">
       <a href="index.html" class="nav-link w-nav-link">HOME</a>
@@ -350,5 +348,6 @@ $('.member-with-dropdown').click(function(ev){
   }
 });
 </script>
+<?php get_footer(); ?>
 </body>
 </html>
