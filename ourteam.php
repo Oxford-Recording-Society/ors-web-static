@@ -10,15 +10,15 @@
   <meta content="Team-test" property="twitter:title">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="Webflow" name="generator">
-  <link href="css/normalize.css" rel="stylesheet" type="text/css">
-  <link href="css/webflow.css" rel="stylesheet" type="text/css">
-  <link href="css/ors-webflow-help.webflow.css" rel="stylesheet" type="text/css">
+  <link href="/css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="/css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="/css/ors-webflow-help.webflow.css" rel="stylesheet" type="text/css">
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
   <script type="text/javascript">WebFont.load({  google: {    families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic","Roboto Mono:300,regular,500,600,700,100italic,200italic,300italic,italic,500italic,600italic,700italic"]  }});</script> -->
   <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
   <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
-  <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
-  <link href="images/webclip.png" rel="apple-touch-icon">
+  <link href="/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <link href="/images/webclip.png" rel="apple-touch-icon">
   <style>
 .nav-buttons, .nav-menu, .nav-bar, .nav-logo, .team-member-3, .committee-desc-container {
     -webkit-transition: all 300ms cubic-bezier(0, 0, 0, 1.0);
@@ -35,7 +35,7 @@
 </head>
 <body>
 <?php get_template_part( 'template-parts/header/site-header' ); ?>
-  <!-- <div data-collapse="medium" data-animation="default" data-duration="400" id="nav-bar" role="banner" class="nav-bar nav-bar-landing nav-bar-other w-nav"><img src="images/ORSlogowhite.png" loading="lazy" id="nav-logo" alt="" class="nav-logo">
+  <!-- <div data-collapse="medium" data-animation="default" data-duration="400" id="nav-bar" role="banner" class="nav-bar nav-bar-landing nav-bar-other w-nav"><img src="/images/ORSlogowhite.png" loading="lazy" id="nav-logo" alt="" class="nav-logo">
     <nav role="navigation" id="nav-menu" class="nav-menu w-nav-menu">
       <a href="index.html" class="nav-link w-nav-link">HOME</a>
       <a href="ourteam.html" aria-current="page" class="nav-link w-nav-link w--current">OUR TEAM</a>
@@ -84,17 +84,17 @@
             <div id="jake" class="member-with-dropdown team-member-3">
               <div class="name-and-college">
                 <h1 class="heading-10">jake</h1>
-                <div class="college"><img src="images/worcester.png" loading="lazy" alt="" class="image-24">
+                <div class="college"><img src="/images/worcester.png" loading="lazy" alt="" class="image-24">
                   <p class="paragraph-6">Worcester</p>
                 </div>
-              </div><img src="images/Jake.jpg" loading="lazy" alt="" class="team-image">
+              </div><img src="/images/Jake.jpg" loading="lazy" alt="" class="team-image">
               <div class="role-descriptor">
                 <div class="div-block-34"></div>
                 <div class="div-block-35"></div>
                 <div class="text-block-6">// PRESIDENT</div>
               </div>
             </div>
-            <div id="wolff" class="member-with-dropdown team-member-3"><img src="images/wolff.jpg" loading="lazy" alt="" class="team-image">
+            <div id="wolff" class="member-with-dropdown team-member-3"><img src="/images/wolff.jpg" loading="lazy" alt="" class="team-image">
               <div class="role-descriptor">
                 <div class="div-block-34"></div>
                 <div class="div-block-35"></div>
@@ -102,12 +102,12 @@
               </div>
               <div class="name-and-college">
                 <h1 class="heading-10">wolff</h1>
-                <div class="college"><img src="images/worcester.png" loading="lazy" alt="" class="image-24">
+                <div class="college"><img src="/images/worcester.png" loading="lazy" alt="" class="image-24">
                   <p class="paragraph-6">Corpus Christi</p>
                 </div>
               </div>
             </div>
-            <div id="dan" class="member-with-dropdown team-member-3"><img src="images/Dan.jpg" loading="lazy" alt="" class="team-image">
+            <div id="dan" class="member-with-dropdown team-member-3"><img src="/images/Dan.jpg" loading="lazy" alt="" class="team-image">
               <div class="role-descriptor">
                 <div class="div-block-34"></div>
                 <div class="div-block-35"></div>
@@ -115,7 +115,7 @@
               </div>
               <div class="name-and-college">
                 <h1 class="heading-10">dan</h1>
-                <div class="college"><img src="images/worcester.png" loading="lazy" alt="" class="image-24">
+                <div class="college"><img src="/images/worcester.png" loading="lazy" alt="" class="image-24">
                   <p class="paragraph-6">Oxford Music Department</p>
                 </div>
               </div>
@@ -124,9 +124,9 @@
           <div id="execdesccontainer" class="committee-desc-container committee-desc-hidden">
             <div class="sub-team-3 sub-team-desc">
               <div class="div-block-37"></div>
-              <div class="triangles"><img src="images/Artboard-12x.png" loading="lazy" id="jaketriangle" alt="" class="triangle-image jake-triangle"></div>
-              <div class="triangles"><img src="images/Artboard-12x.png" loading="lazy" id="wolfftriangle" alt="" class="triangle-image wolff-triangle"></div>
-              <div class="triangles"><img src="images/Artboard-12x.png" loading="lazy" id="dantriangle" alt="" class="triangle-image dan-triangle"></div>
+              <div class="triangles"><img src="/images/Artboard-12x.png" loading="lazy" id="jaketriangle" alt="" class="triangle-image jake-triangle"></div>
+              <div class="triangles"><img src="/images/Artboard-12x.png" loading="lazy" id="wolfftriangle" alt="" class="triangle-image wolff-triangle"></div>
+              <div class="triangles"><img src="/images/Artboard-12x.png" loading="lazy" id="dantriangle" alt="" class="triangle-image dan-triangle"></div>
             </div>
             <div class="div-block-36">
               <div class="div-block-38">
@@ -144,10 +144,10 @@
               <div id="jake" class="team-member-3 team-member-2">
                 <div class="name-and-college name-and-college-2">
                   <h1 class="heading-10 heading-10-small">riya</h1>
-                  <div class="college"><img src="images/worcester.png" loading="lazy" alt="" class="image-24">
+                  <div class="college"><img src="/images/worcester.png" loading="lazy" alt="" class="image-24">
                     <p class="paragraph-6">St Catherine&#x27;s</p>
                   </div>
-                </div><img src="images/riya.jpg" loading="lazy" alt="" class="team-image">
+                </div><img src="/images/riya.jpg" loading="lazy" alt="" class="team-image">
                 <div class="role-descriptor">
                   <div class="div-block-34"></div>
                   <div class="div-block-35"></div>
@@ -157,10 +157,10 @@
               <div id="jake" class="team-member-3 team-member-2">
                 <div class="name-and-college name-and-college-2">
                   <h1 class="heading-10 heading-10-small">rob</h1>
-                  <div class="college"><img src="images/worcester.png" loading="lazy" alt="" class="image-24">
+                  <div class="college"><img src="/images/worcester.png" loading="lazy" alt="" class="image-24">
                     <p class="paragraph-6">Worcester</p>
                   </div>
-                </div><img src="images/rob.jpg" loading="lazy" alt="" class="team-image">
+                </div><img src="/images/rob.jpg" loading="lazy" alt="" class="team-image">
                 <div class="role-descriptor">
                   <div class="div-block-34"></div>
                   <div class="div-block-35"></div>
@@ -176,10 +176,10 @@
               <div id="jake" class="team-member-3 team-member-2">
                 <div class="name-and-college name-and-college-2">
                   <h1 class="heading-10 heading-10-small">sam</h1>
-                  <div class="college"><img src="images/worcester.png" loading="lazy" alt="" class="image-24">
+                  <div class="college"><img src="/images/worcester.png" loading="lazy" alt="" class="image-24">
                     <p class="paragraph-6">St Catherine&#x27;s</p>
                   </div>
-                </div><img src="images/sam.jpg" loading="lazy" alt="" class="team-image">
+                </div><img src="/images/sam.jpg" loading="lazy" alt="" class="team-image">
                 <div class="role-descriptor">
                   <div class="div-block-34"></div>
                   <div class="div-block-35"></div>
@@ -189,10 +189,10 @@
               <div id="jake" class="team-member-3 team-member-2">
                 <div class="name-and-college name-and-college-2">
                   <h1 class="heading-10 heading-10-small">alex</h1>
-                  <div class="college"><img src="images/worcester.png" loading="lazy" alt="" class="image-24">
+                  <div class="college"><img src="/images/worcester.png" loading="lazy" alt="" class="image-24">
                     <p class="paragraph-6">Oriel</p>
                   </div>
-                </div><img src="images/alexandru.jpg" loading="lazy" alt="" class="team-image">
+                </div><img src="/images/alexandru.jpg" loading="lazy" alt="" class="team-image">
                 <div class="role-descriptor">
                   <div class="div-block-34"></div>
                   <div class="div-block-35"></div>
@@ -208,10 +208,10 @@
               <div id="jake" class="team-member-3 team-member-2">
                 <div class="name-and-college name-and-college-2">
                   <h1 class="heading-10 heading-10-small">immie</h1>
-                  <div class="college"><img src="images/worcester.png" loading="lazy" alt="" class="image-24">
+                  <div class="college"><img src="/images/worcester.png" loading="lazy" alt="" class="image-24">
                     <p class="paragraph-6">St Peter&#x27;s</p>
                   </div>
-                </div><img src="images/immie.jpg" loading="lazy" alt="" class="team-image">
+                </div><img src="/images/immie.jpg" loading="lazy" alt="" class="team-image">
                 <div class="role-descriptor">
                   <div class="div-block-34"></div>
                   <div class="div-block-35"></div>
@@ -219,7 +219,7 @@
                 </div>
               </div>
               <div id="jake" class="team-member-3 team-member-2">
-                <div class="name-and-college"></div><img src="images/APPLY.jpg" loading="lazy" alt="" class="team-image">
+                <div class="name-and-college"></div><img src="/images/APPLY.jpg" loading="lazy" alt="" class="team-image">
                 <div class="role-descriptor">
                   <div class="div-block-34"></div>
                   <div class="div-block-35"></div>
@@ -238,17 +238,17 @@
             <div id="jake" class="team-member-3">
               <div class="name-and-college">
                 <h1 class="heading-10">joel</h1>
-                <div class="college"><img src="images/worcester.png" loading="lazy" alt="" class="image-24">
+                <div class="college"><img src="/images/worcester.png" loading="lazy" alt="" class="image-24">
                   <p class="paragraph-6">St Peter&#x27;s</p>
                 </div>
-              </div><img src="images/joel.jpg" loading="lazy" alt="" class="team-image">
+              </div><img src="/images/joel.jpg" loading="lazy" alt="" class="team-image">
               <div class="role-descriptor">
                 <div class="div-block-34"></div>
                 <div class="div-block-35"></div>
                 <div class="text-block-6">// ARTIST&#x27;S OFFICER</div>
               </div>
             </div>
-            <div id="wolff" class="team-member-3"><img src="images/eve.jpg" loading="lazy" alt="" class="team-image">
+            <div id="wolff" class="team-member-3"><img src="/images/eve.jpg" loading="lazy" alt="" class="team-image">
               <div class="role-descriptor">
                 <div class="div-block-34"></div>
                 <div class="div-block-35"></div>
@@ -256,12 +256,12 @@
               </div>
               <div class="name-and-college">
                 <h1 class="heading-10">eve</h1>
-                <div class="college"><img src="images/worcester.png" loading="lazy" alt="" class="image-24">
+                <div class="college"><img src="/images/worcester.png" loading="lazy" alt="" class="image-24">
                   <p class="paragraph-6">Worcester</p>
                 </div>
               </div>
             </div>
-            <div id="dan" class="team-member-3"><img src="images/josh.jpg" loading="lazy" alt="" class="team-image">
+            <div id="dan" class="team-member-3"><img src="/images/josh.jpg" loading="lazy" alt="" class="team-image">
               <div class="role-descriptor">
                 <div class="div-block-34"></div>
                 <div class="div-block-35"></div>
@@ -269,7 +269,7 @@
               </div>
               <div class="name-and-college">
                 <h1 class="heading-10">josh</h1>
-                <div class="college"><img src="images/worcester.png" loading="lazy" alt="" class="image-24">
+                <div class="college"><img src="/images/worcester.png" loading="lazy" alt="" class="image-24">
                   <p class="paragraph-6">Keble</p>
                 </div>
               </div>
@@ -285,17 +285,17 @@
             <div id="jake" class="team-member-3">
               <div class="name-and-college">
                 <h1 class="heading-10 catherine">catherine</h1>
-                <div class="college"><img src="images/worcester.png" loading="lazy" alt="" class="image-24">
+                <div class="college"><img src="/images/worcester.png" loading="lazy" alt="" class="image-24">
                   <p class="paragraph-6">Mansfield</p>
                 </div>
-              </div><img src="images/catherine.jpg" loading="lazy" alt="" class="team-image">
+              </div><img src="/images/catherine.jpg" loading="lazy" alt="" class="team-image">
               <div class="role-descriptor">
                 <div class="div-block-34"></div>
                 <div class="div-block-35"></div>
                 <div class="text-block-6">// PRESIDENT</div>
               </div>
             </div>
-            <div id="wolff" class="team-member-3"><img src="images/sofie.jpg" loading="lazy" alt="" class="team-image">
+            <div id="wolff" class="team-member-3"><img src="/images/sofie.jpg" loading="lazy" alt="" class="team-image">
               <div class="role-descriptor">
                 <div class="div-block-34"></div>
                 <div class="div-block-35"></div>
@@ -303,12 +303,12 @@
               </div>
               <div class="name-and-college">
                 <h1 class="heading-10">sofie</h1>
-                <div class="college"><img src="images/worcester.png" loading="lazy" alt="" class="image-24">
+                <div class="college"><img src="/images/worcester.png" loading="lazy" alt="" class="image-24">
                   <p class="paragraph-6">St Peter&#x27;s</p>
                 </div>
               </div>
             </div>
-            <div id="dan" class="team-member-3"><img src="images/APPLY.jpg" loading="lazy" alt="" class="team-image">
+            <div id="dan" class="team-member-3"><img src="/images/APPLY.jpg" loading="lazy" alt="" class="team-image">
               <div class="role-descriptor">
                 <div class="div-block-34"></div>
                 <div class="div-block-35"></div>
@@ -327,7 +327,7 @@
     </div>
   </div>
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=61312cc3d820c1211b819fe5" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-  <script src="js/webflow.js" type="text/javascript"></script>
+  <script src="/js/webflow.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   <script>
 let open = null;
