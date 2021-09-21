@@ -2051,6 +2051,7 @@
   align-items: center;
   padding:50px;
   background-color: #333d;
+  -webkit-backdrop-filter: blur(6px);
   backdrop-filter: blur(6px);
 }
 
