@@ -104,20 +104,6 @@
               </div>
             </div>
           </div>
-          <div id="execdesccontainer" class="committee-desc-container committee-desc-hidden">
-            <div class="sub-team-3 sub-team-desc">
-              <div class="div-block-37"></div>
-              <div class="triangles"><img src="/images/Artboard-12x.png" loading="lazy" id="jaketriangle" alt="" class="triangle-image jake-triangle"></div>
-              <div class="triangles"><img src="/images/Artboard-12x.png" loading="lazy" id="wolfftriangle" alt="" class="triangle-image wolff-triangle"></div>
-              <div class="triangles"><img src="/images/Artboard-12x.png" loading="lazy" id="dantriangle" alt="" class="triangle-image dan-triangle"></div>
-            </div>
-            <div class="div-block-36">
-              <div class="div-block-38">
-                <div class="left-panel"></div>
-                <div class="right-panel"></div>
-              </div>
-            </div>
-          </div>
           <div class="div-block-40">
             <div class="sub-team-3 sub-team-2">
               <div class="div-block-41 subteam-desc-3 subteam-desc-2">
@@ -313,24 +299,107 @@
   <script src="/js/webflow.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   <script>
+const TRIANGLE_IMAGE_WIDTH = 100;
+const CONTAINER_MARGIN = 16;
 let open = null;
 
-$('.member-with-dropdown').click(function(ev){
+$('.member-with-dropdown').click(ev => {
   const elem = ev.currentTarget;
-  $(".triangle-image").hide();
-  $(".team-member-3-big").removeClass("team-member-3-big");
-  if (open===elem.id){
+  $('.team-member-focused').removeClass("team-member-focused");
+  $('.committee-description').addClass("committee-description-hidden");
+
+  if (open===elem.id) { // closing
     open = null;
-    $(execdesccontainer).addClass("committee-desc-hidden");
+    $('#execdesccontainer').addClass("description-container-hidden");
   }
-  else{
+  else { //opening
     open = elem.id;
-    $('#'+elem.id+'triangle').show();
-    $(ev.target).addClass("team-member-3-big")
-    $(execdesccontainer).removeClass("committee-desc-hidden");
+    console.log(elem.id)
+    $('#description-'+elem.id).removeClass("committee-description-hidden");
+
+    const rect = elem.getBoundingClientRect();
+
+    const trianglePos = rect.x + (rect.width/2) - (TRIANGLE_IMAGE_WIDTH/2);
+    $('#triangle-image').css('left', trianglePos+'px');
+
+    const containerPos = rect.bottom + window.scrollY + CONTAINER_MARGIN;
+    $('#execdesccontainer').css('top', containerPos+'px');
+
+    $(elem).addClass("team-member-focused")
+    $('#execdesccontainer').removeClass("description-container-hidden");
+  }
+  ev.stopPropagation();
+});
+
+$('.team-selector').click(_ => {
+  if(open !== null){  // closing
+    open = null;
+    $(".team-member-3-big").removeClass("team-member-focused");
+    $('#execdesccontainer').addClass("description-container-hidden");
   }
 });
+
 </script>
 <?php get_footer(); ?>
+
+<div id="execdesccontainer" class="committee-desc-container description-container-hidden">
+  <div class="triangles"><img src="/images/Artboard-12x.png" loading="lazy" alt="" id="triangle-image"></div>
+  <div class="div-block-36">
+
+<div id="description-jake" class="committee-description">
+  <div class="left-panel">jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake</div>
+  <div class="right-panel">jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake</div>
+</div>
+<div id="description-wolff" class="committee-description">
+  <div class="left-panel">wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff</div>
+  <div class="right-panel">wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff</div>
+</div>
+<div id="description-dan" class="committee-description">
+  <div class="left-panel">dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan</div>
+  <div class="right-panel">dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan</div>
+</div>
+<div id="description-riya" class="committee-description">
+  <div class="left-panel">riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya</div>
+  <div class="right-panel">riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya</div>
+</div>
+<div id="description-rob" class="committee-description">
+  <div class="left-panel">rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob</div>
+  <div class="right-panel">rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob</div>
+</div>
+<div id="description-sam" class="committee-description">
+  <div class="left-panel">sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam</div>
+  <div class="right-panel">sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam</div>
+</div>
+<div id="description-alex" class="committee-description">
+  <div class="left-panel">alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex</div>
+  <div class="right-panel">alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex</div>
+</div>
+<div id="description-immie" class="committee-description">
+  <div class="left-panel">immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie</div>
+  <div class="right-panel">immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie</div>
+</div>
+<div id="description-joel" class="committee-description">
+  <div class="left-panel">joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel</div>
+  <div class="right-panel">joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel</div>
+</div>
+<div id="description-eve" class="committee-description">
+  <div class="left-panel">eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve</div>
+  <div class="right-panel">eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve</div>
+</div>
+<div id="description-josh" class="committee-description">
+  <div class="left-panel">josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh</div>
+  <div class="right-panel">josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh</div>
+</div>
+<div id="description-catherine" class="committee-description">
+  <div class="left-panel">catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine</div>
+  <div class="right-panel">catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine</div>
+</div>
+<div id="description-sofie" class="committee-description">
+  <div class="left-panel">sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie</div>
+  <div class="right-panel">sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie</div>
+</div>
+
+  </div>
+</div>
 </body>
 </html>
