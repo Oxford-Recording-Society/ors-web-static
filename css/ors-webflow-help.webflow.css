@@ -3248,6 +3248,8 @@
     -ms-flex-direction: column;
     flex-direction: column;
   }
+.nav-buttons, .nav-menu, .nav-bar, .nav-logo {
+  transition: width 300ms cubic-bezier(0, 0, 0, 1.0);
 }
 
 @font-face {

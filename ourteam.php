@@ -20,12 +20,6 @@
   <link href="/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link href="/images/webclip.png" rel="apple-touch-icon">
   <style>
-.nav-buttons, .nav-menu, .nav-bar, .nav-logo, .team-member-3, .committee-desc-container {
-    -webkit-transition: all 300ms cubic-bezier(0, 0, 0, 1.0);
-    -moz-transition: all 300ms cubic-bezier(0, 0, 0, 1.0);
-    -o-transition: all 300ms cubic-bezier(0, 0, 0, 1.0);
-    transition: width 300ms cubic-bezier(0, 0, 0, 1.0);
-    }
 .outlinetext {
     color: rgba(0, 0, 0, 0);
     -webkit-text-stroke: 0.4px #FFFFFF;
@@ -35,17 +29,6 @@
 </head>
 <body>
 <?php get_template_part( 'template-parts/header/site-header' ); ?>
-  <!-- <div data-collapse="medium" data-animation="default" data-duration="400" id="nav-bar" role="banner" class="nav-bar nav-bar-landing nav-bar-other w-nav"><img src="/images/ORSlogowhite.png" loading="lazy" id="nav-logo" alt="" class="nav-logo">
-    <nav role="navigation" id="nav-menu" class="nav-menu w-nav-menu">
-      <a href="index.html" class="nav-link w-nav-link">HOME</a>
-      <a href="ourteam.html" aria-current="page" class="nav-link w-nav-link w--current">OUR TEAM</a>
-      <a href="#" class="nav-link w-nav-link">TERMCARD</a>
-      <a href="#" class="nav-link w-nav-link">GET INVOLVED</a>
-    </nav>
-    <div id="nav-buttons" class="nav-buttons">
-      <a href="#" class="navbutton w-button">BECOME A MEMBER</a>
-      <a href="#" class="navbutton button3 w-button">MEMBER LOG IN</a>
-    </div> -->
     <div class="w-nav-button">
       <div class="icon w-icon-nav-menu"></div>
     </div>
@@ -141,7 +124,7 @@
                 <h1 class="team-title team-title-2">FINANCE TEAM</h1>
                 <p class="paragraph-7 paragraph-7-2">The <span class="text-span">FINANCE TEAM</span> is responsible for all things financial within the ORS, including negotiating member benefits, yearly and termly budgets, and leading financial and business strategy.</p>
               </div>
-              <div id="jake" class="team-member-3 team-member-2">
+              <div id="riya" class="team-member-3 team-member-2 member-with-dropdown">
                 <div class="name-and-college name-and-college-2">
                   <h1 class="heading-10 heading-10-small">riya</h1>
                   <div class="college"><img src="/images/worcester.png" loading="lazy" alt="" class="image-24">
@@ -154,7 +137,7 @@
                   <div class="text-block-6 text-block-6-2">// TREASURER</div>
                 </div>
               </div>
-              <div id="jake" class="team-member-3 team-member-2">
+              <div id="rob" class="team-member-3 team-member-2 member-with-dropdown">
                 <div class="name-and-college name-and-college-2">
                   <h1 class="heading-10 heading-10-small">rob</h1>
                   <div class="college"><img src="/images/worcester.png" loading="lazy" alt="" class="image-24">
@@ -173,7 +156,7 @@
                 <h1 class="team-title team-title-2">DEV TEAM</h1>
                 <p class="paragraph-7 paragraph-7-2">The <span class="text-span">DEV TEAM</span> is responsible for the development, updates and maintenance of the ORS members web platform, and work hard to ensure all members get an easy-to-use experience with our platform.</p>
               </div>
-              <div id="jake" class="team-member-3 team-member-2">
+              <div id="sam" class="team-member-3 team-member-2 member-with-dropdown">
                 <div class="name-and-college name-and-college-2">
                   <h1 class="heading-10 heading-10-small">sam</h1>
                   <div class="college"><img src="/images/worcester.png" loading="lazy" alt="" class="image-24">
@@ -186,7 +169,7 @@
                   <div class="text-block-6 text-block-6-2">// IT OFFICER</div>
                 </div>
               </div>
-              <div id="jake" class="team-member-3 team-member-2">
+              <div id="alex" class="team-member-3 team-member-2 member-with-dropdown">
                 <div class="name-and-college name-and-college-2">
                   <h1 class="heading-10 heading-10-small">alex</h1>
                   <div class="college"><img src="/images/worcester.png" loading="lazy" alt="" class="image-24">
@@ -205,7 +188,7 @@
                 <h1 class="team-title team-title-2">EVENTS TEAM</h1>
                 <p class="paragraph-7 paragraph-7-2">The <span class="text-span">EVENTS TEAM</span> organise all our large events, from speaker events &amp; workshops to club nights and gigs. They deal with invites, logistics and leading our other teams to prepare marketing material &amp; plans. </p>
               </div>
-              <div id="jake" class="team-member-3 team-member-2">
+              <div id="immie" class="team-member-3 team-member-2 member-with-dropdown">
                 <div class="name-and-college name-and-college-2">
                   <h1 class="heading-10 heading-10-small">immie</h1>
                   <div class="college"><img src="/images/worcester.png" loading="lazy" alt="" class="image-24">
@@ -218,12 +201,12 @@
                   <div class="text-block-6 text-block-6-2">// SPEAKER EVENTS OFFICER</div>
                 </div>
               </div>
-              <div id="jake" class="team-member-3 team-member-2">
+              <div id="eventsUnknown" class="team-member-3 team-member-2">
                 <div class="name-and-college"></div><img src="/images/APPLY.jpg" loading="lazy" alt="" class="team-image">
                 <div class="role-descriptor">
                   <div class="div-block-34"></div>
                   <div class="div-block-35"></div>
-                  <div class="text-block-6 text-block-6-2">// PRESIDENT</div>
+                  <div class="text-block-6 text-block-6-2">// ???</div>
                 </div>
               </div>
             </div>
@@ -235,7 +218,7 @@
                 <p class="paragraph-7">The <span class="text-span">EXECUTIVE TEAM</span> oversees all areas of the Oxford Recording Society, including leading the committee and maintaining a long term vision for the direction the ORS wants to head in the future.</p>
               </div>
             </div>
-            <div id="jake" class="team-member-3">
+            <div id="joel" class="team-member-3 member-with-dropdown">
               <div class="name-and-college">
                 <h1 class="heading-10">joel</h1>
                 <div class="college"><img src="/images/worcester.png" loading="lazy" alt="" class="image-24">
@@ -248,7 +231,7 @@
                 <div class="text-block-6">// ARTIST&#x27;S OFFICER</div>
               </div>
             </div>
-            <div id="wolff" class="team-member-3"><img src="/images/eve.jpg" loading="lazy" alt="" class="team-image">
+            <div id="eve" class="team-member-3 member-with-dropdown"><img src="/images/eve.jpg" loading="lazy" alt="" class="team-image">
               <div class="role-descriptor">
                 <div class="div-block-34"></div>
                 <div class="div-block-35"></div>
@@ -261,7 +244,7 @@
                 </div>
               </div>
             </div>
-            <div id="dan" class="team-member-3"><img src="/images/josh.jpg" loading="lazy" alt="" class="team-image">
+            <div id="josh" class="team-member-3 member-with-dropdown"><img src="/images/josh.jpg" loading="lazy" alt="" class="team-image">
               <div class="role-descriptor">
                 <div class="div-block-34"></div>
                 <div class="div-block-35"></div>
@@ -282,7 +265,7 @@
                 <p class="paragraph-7">The <span class="text-span">EXECUTIVE TEAM</span> oversees all areas of the Oxford Recording Society, including leading the committee and maintaining a long term vision for the direction the ORS wants to head in the future.</p>
               </div>
             </div>
-            <div id="jake" class="team-member-3">
+            <div id="catherine" class="team-member-3 member-with-dropdown">
               <div class="name-and-college">
                 <h1 class="heading-10 catherine">catherine</h1>
                 <div class="college"><img src="/images/worcester.png" loading="lazy" alt="" class="image-24">
@@ -292,14 +275,14 @@
               <div class="role-descriptor">
                 <div class="div-block-34"></div>
                 <div class="div-block-35"></div>
-                <div class="text-block-6">// PRESIDENT</div>
+                <div class="text-block-6">// ___</div>
               </div>
             </div>
-            <div id="wolff" class="team-member-3"><img src="/images/sofie.jpg" loading="lazy" alt="" class="team-image">
+            <div id="sofie" class="team-member-3 member-with-dropdown"><img src="/images/sofie.jpg" loading="lazy" alt="" class="team-image">
               <div class="role-descriptor">
                 <div class="div-block-34"></div>
                 <div class="div-block-35"></div>
-                <div class="text-block-6">// VP/SECRETARY</div>
+                <div class="text-block-6">// SOCIAL MEDIA OFFICER</div>
               </div>
               <div class="name-and-college">
                 <h1 class="heading-10">sofie</h1>
@@ -308,7 +291,7 @@
                 </div>
               </div>
             </div>
-            <div id="dan" class="team-member-3"><img src="/images/APPLY.jpg" loading="lazy" alt="" class="team-image">
+            <div id="dan" class="team-member-3 member-with-dropdown"><img src="/images/APPLY.jpg" loading="lazy" alt="" class="team-image">
               <div class="role-descriptor">
                 <div class="div-block-34"></div>
                 <div class="div-block-35"></div>
