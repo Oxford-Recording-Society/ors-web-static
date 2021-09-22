@@ -30,25 +30,9 @@
   }
 </style>
 <?php wp_head(); ?>
-
 </head>
 <body>
 <?php get_template_part( 'template-parts/header/site-header' ); ?>
-  <!-- <div data-collapse="medium" data-animation="default" data-duration="400" id="nav-bar" role="banner" class="nav-bar nav-bar-landing w-nav"><img src="images/ORSlogowhite.png" loading="lazy" id="nav-logo" alt="" class="nav-logo nav-logo-landing">
-    <nav role="navigation" id="nav-menu" class="nav-menu nav-menu-landing w-nav-menu">
-      <a href="index.html" aria-current="page" class="nav-link w-nav-link w--current">Home</a>
-      <a href="ourteam.html" class="nav-link w-nav-link">OUR TEAM</a>
-      <a href="#" class="nav-link w-nav-link">TERMCARD</a>
-      <a href="#" class="nav-link w-nav-link">GET INVOLVED</a>
-    </nav>
-    <div id="nav-buttons" class="nav-buttons nav-buttons-landing">
-      <a href="#" class="navbutton w-button">BECOME A MEMBER</a>
-      <a href="#" class="navbutton button3 w-button">MEMBER LOG IN</a>
-    </div>
-    <div class="w-nav-button">
-      <div class="icon w-icon-nav-menu"></div>
-    </div>
-  </div> -->
   <div id="landing" class="landing">
     <div class="landing-content2">
       <div class="div-block-13">
@@ -66,7 +50,11 @@
         </div>
       </div>
       <div class="div-block-8">
-        <div class="div-block-20"><img src="images/Radcam.png" loading="lazy" sizes="360px" srcset="images/Radcam-p-500.png 500w, images/Radcam.png 866w" alt="" class="image-17"></div><img src="images/3Dmaking.png" loading="lazy" sizes="(max-width: 479px) 49vw, (max-width: 767px) 117px, (max-width: 991px) 27vw, (max-width: 1439px) 30vw, 330px" srcset="images/3Dmaking-p-500.png 500w, images/3Dmaking-p-800.png 800w, images/3Dmaking-p-1080.png 1080w, images/3Dmaking-p-1600.png 1600w, images/3Dmaking.png 1920w" alt="" class="image-18"><img src="images/3Dbusiness.png" loading="lazy" sizes="(max-width: 479px) 49vw, (max-width: 767px) 117px, (max-width: 991px) 27vw, (max-width: 1439px) 30vw, 430px" srcset="images/3Dbusiness-p-500.png 500w, images/3Dbusiness-p-800.png 800w, images/3Dbusiness-p-1080.png 1080w, images/3Dbusiness-p-1600.png 1600w, images/3Dbusiness.png 1920w" alt="" class="image-21"><img src="images/3Dmedia.png" loading="lazy" sizes="(max-width: 479px) 49vw, (max-width: 767px) 117px, (max-width: 991px) 27vw, (max-width: 1439px) 30vw, 360px" srcset="images/3Dmedia-p-500.png 500w, images/3Dmedia-p-800.png 800w, images/3Dmedia-p-1080.png 1080w, images/3Dmedia-p-1600.png 1600w, images/3Dmedia.png 1920w" alt="" class="image-19"><img src="images/3Devents.png" loading="lazy" sizes="(max-width: 479px) 49vw, (max-width: 767px) 117px, (max-width: 991px) 27vw, (max-width: 1439px) 30vw, 390px" srcset="images/3Devents-p-500.png 500w, images/3Devents-p-800.png 800w, images/3Devents-p-1080.png 1080w, images/3Devents-p-1600.png 1600w, images/3Devents.png 1920w" alt="" class="image-20">
+        <picture>
+          <source srcset="images/radcamDecorated.webp" type="image/webp">
+          <source srcset="images/radcamDecorated.png" type="image/png">
+          <img src="images/radcamDecorated.png" alt="" loading="lazy">
+        </picture>
       </div>
     </div>
     <div class="div-block-21 marquee">
