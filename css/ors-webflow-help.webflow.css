@@ -5,22 +5,14 @@
 }
 
 .landing {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
   height: 100vh;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: end;
-  -webkit-align-items: flex-end;
-  -ms-flex-align: end;
   align-items: flex-end;
   background-color: #161616;
   color: #fff;
+  overflow: hidden;
 }
 
 .header {
@@ -454,25 +446,12 @@
 }
 
 .landing-content2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   width: 83%;
   height: 460px;
   padding-left: 0px;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
-  -webkit-box-align: end;
-  -webkit-align-items: flex-end;
-  -ms-flex-align: end;
   align-items: flex-end;
 }
 
@@ -496,9 +475,6 @@
 
 .div-block-8 {
   position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   width: 50%;
   height: 100%;
@@ -506,14 +482,7 @@
   margin-left: 0px;
   padding-right: 0px;
   padding-left: 117px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
   align-items: flex-start;
   font-size: 14vw;
 }
@@ -543,16 +512,9 @@
 }
 
 .columns-4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
   height: 100%;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
 }
 
 .column-5 {
@@ -683,7 +645,7 @@
   bottom: auto;
   height: auto;
   font-family: Bernoru, sans-serif;
-  font-size: 10vw;
+  font-size:  max(5rem, 10vw);
   line-height: 1.8vw;
   font-weight: 500;
   text-transform: uppercase;
@@ -694,7 +656,6 @@
   margin-top: 0px;
   margin-bottom: 0px;
   padding-bottom: 0vw;
-  font-size: 10vw;
   line-height: 1.2vw;
   font-weight: 500;
   text-transform: lowercase;
@@ -705,7 +666,6 @@
   margin-bottom: 0px;
   padding-top: 1vw;
   padding-bottom: 1vw;
-  font-size: 10vw;
   line-height: 1.4vw;
   font-weight: 500;
 }
@@ -845,31 +805,20 @@
 }
 
 .column-10 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  height: 100%;
-  padding-right: 0px;
-  padding-left: 0px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
+  height: 66px;
+  padding: 0;
   justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 auto;
-  -ms-flex: 0 auto;
-  flex: 0 auto;
   border-right: 2px dashed #fff;
+  width: 70px;
+  flex-shrink: 0;
 }
 
 .div-block-13 {
   padding-bottom: 138px;
   padding-left: 0px;
+  z-index:1;
 }
 
 .heading-4 {
@@ -882,7 +831,7 @@
   font-style: italic;
   font-weight: 200;
   letter-spacing: 0px;
-  white-space: nowrap;
+  /* white-space: nowrap; */
 }
 
 .outlinetext-2 {
@@ -1120,11 +1069,19 @@
 .image-17 {
   position: absolute;
 }
+
 .div-block-8 picture{
   position: absolute;
   width: 572px;
   top: -148px;
   right: -98px;
+}
+@media screen and (max-width: 1000px) {
+  .div-block-8 picture {
+    width:max(57vw,250px);
+    top: -10vw;
+    right: -11vw;
+  }
 }
 
 .image-18 {
@@ -1294,19 +1251,19 @@
 
 .div-block-22 {
   position: absolute;
-  left: 0%;
-  top: auto;
-  right: auto;
-  bottom: 0px;
+  left: 0;
+  bottom: 0;
   width: 100%;
   height: auto;
   padding-left: 74px;
+  margin-bottom:-26px;
 }
 
 .slide-nav {
   position: absolute;
   margin-left: 0px;
   padding-left: 938px;
+  display: none; /* TODO re-add these if we actually want the slider gallery*/
 }
 
 .text-block-2 {
@@ -1319,9 +1276,20 @@
   font-family: Bernoru, sans-serif;
   color: #fff;
   font-size: 160px;
-  line-height: 50px;
+  line-height: 40px;
   font-weight: 900;
   text-align: left;
+  white-space: nowrap;
+}
+@media screen and (max-width:1440px) {
+  .text-block-2 {
+    font-size: min(160px, max(16vw,3rem));
+    line-height: min(40px,max(4vw,0.75rem));
+    height: min(205px, max(25vw,5rem));
+  }
+  .div-block-22{
+    padding-left: 5vw;
+  }
 }
 
 .text-block-2.our-team-text {
@@ -2292,12 +2260,6 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .landing {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-  }
 
   .nav-bar.nav-bar-landing {
     -webkit-flex-wrap: wrap;
@@ -2601,19 +2563,6 @@
   .div-block-22 {
     margin-bottom: -26px;
     padding-bottom: 0px;
-  }
-
-  .text-block-2 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    -webkit-align-self: center;
-    -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
-    align-self: center;
-    line-height: 40px;
   }
 
   .text-block-2.team-text {
@@ -3183,7 +3132,7 @@
   }
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 481px) { /* 481 to be inline with WP's switch*/
   .nav-menu {
     position: absolute;
     display: block;
@@ -3219,11 +3168,27 @@
   }
 
   .landing-content2 {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
+    width:100%;
+  }
+  .div-block-13 {
+    width: 100%;
+    /* padding-left: 30px;
+    padding-right: 30px; */
+  }
+  .heading-4, .titletext{
+    padding-left: 30px;
+  }
+  .div-block-8 {
+    display: none; /* TODO fix */
+  }
+
+  .div-block-12{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .div-block-22{
+    padding-left: 0;
   }
 
   .inner-hero {
