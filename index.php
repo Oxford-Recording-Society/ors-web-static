@@ -89,24 +89,37 @@
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=61312cc3d820c1211b819fe5" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
   <script src="js/webflow.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
-  <script>
+
+<style>
+/* Navbar overrides for index page */
+.site-header{
+  position:fixed;
+}
+.site-header, .site-header .site-logo .custom-logo{
+  -webkit-transition: all 300ms cubic-bezier(0, 0, 0, 1.0);
+  -moz-transition: all 300ms cubic-bezier(0, 0, 0, 1.0);
+  transition: all 300ms cubic-bezier(0, 0, 0, 1.0);
+}
+.site-header-landing{
+  padding: 80px 96px;
+}
+.site-header-landing .site-logo .custom-logo{
+  max-height:85px;
+}
+</style>
+<script>
 // Nav Bar minimization effect on scroll
 $(document).ready(function() {
   $(window).scroll(function() {
     if ($(document).scrollTop() < 50) {
-      $('#nav-bar').addClass('nav-bar-landing'); //change nav bar height
-      $('#nav-logo').addClass('nav-logo-landing'); //change nav logo size & padding
-      $('#nav-menu').addClass('nav-menu-landing'); //change nav links padding
-      $('#nav-buttons').addClass('nav-buttons-landing'); //change nav button padding
+      $('.site-header').addClass('site-header-landing');
     } else {
-      $('#nav-bar').removeClass('nav-bar-landing'); //revert nav bar height
-      $('#nav-logo').removeClass('nav-logo-landing'); //revert nav logo size & padding
-      $('#nav-menu').removeClass('nav-menu-landing'); //revert nav links padding
-      $('#nav-buttons').removeClass('nav-buttons-landing'); //revert nav button paddin;
+      $('.site-header').removeClass('site-header-landing');
     }
   });
 });
 </script>
+
 <?php get_footer(); ?>
 </body>
 </html>
