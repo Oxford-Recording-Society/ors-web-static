@@ -1,3 +1,7 @@
+html{
+  min-width: 400px;
+}
+
 .div-block {
   position: absolute;
   width: 100%;
@@ -13,6 +17,7 @@
   background-color: #161616;
   color: #fff;
   overflow: hidden;
+  position: relative;
 }
 
 .header {
@@ -616,7 +621,7 @@
   height: auto;
   font-family: Bernoru, sans-serif;
   font-size:  max(5rem, 10vw);
-  line-height: 1.8vw;
+  line-height: max(0.9rem, 1.8vw);
   font-weight: 500;
   text-transform: uppercase;
 }
@@ -626,7 +631,7 @@
   margin-top: 0px;
   margin-bottom: 0px;
   padding-bottom: 0vw;
-  line-height: 1.2vw;
+  /* line-height: 1.2vw; */
   font-weight: 500;
   text-transform: lowercase;
 }
@@ -634,9 +639,8 @@
 .titletext.recording {
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-top: 1vw;
-  padding-bottom: 1vw;
-  line-height: 1.4vw;
+  padding-top: max(1vw, 0.7rem);
+  padding-bottom: max(1vw, 0.7rem);
   font-weight: 500;
 }
 
@@ -1025,13 +1029,12 @@
 .div-block-8 picture{
   position: absolute;
   width: 572px;
-  top: -148px;
+  bottom: 65px;
   right: -98px;
 }
 @media screen and (max-width: 1000px) {
   .div-block-8 picture {
-    width:max(57vw,250px);
-    top: -10vw;
+    width: max(57vw,300px);
     right: -11vw;
   }
 }
@@ -2990,7 +2993,10 @@
     padding-left: 30px;
   }
   .div-block-8 {
-    display: none; /* TODO fix */
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+    height: 350px;
   }
 
   .div-block-12{
