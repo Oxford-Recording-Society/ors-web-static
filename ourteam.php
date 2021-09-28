@@ -90,7 +90,7 @@
                 </div>
               </div>
             </div>
-            <div id="dan" class="member-with-dropdown team-member-3"><img src="/images/Dan.jpg" loading="lazy" alt="" class="team-image">
+            <div id="dan" class="team-member-3"><img src="/images/Dan.jpg" loading="lazy" alt="" class="team-image">
               <div class="role-descriptor">
                 <div class="div-block-34"></div>
                 <div class="div-block-35"></div>
@@ -347,56 +347,121 @@ $('.team-selector').click(_ => {
   <div class="div-block-36">
 
 <div id="description-jake" class="committee-description">
-  <div class="left-panel">jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake</div>
-  <div class="right-panel">jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake jake</div>
+  <div class="left-panel">???</div>
+  <div class="right-panel">No info for Jake yet.</div>
 </div>
+
 <div id="description-wolff" class="committee-description">
-  <div class="left-panel">wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff</div>
-  <div class="right-panel">wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff wolff</div>
+  <div class="left-panel">
+    Classics, 4th year
+  </div>
+  <div class="right-panel">
+  Hi! I am Wolff, a Belgian student at Corpus reading Classics! I will be your Vice-President and will strive to uphold the goals of the society for all its members! The world of music should be open to everyone, so my goal is to give people the opportunity to enter that world and make their voices heard! My musical interests lie in film soundtracks, blues and folk (although this is just a selection really...cannot have a bop without some EDM). I do make my own music as well playing either the piano, guitar or tenor saxophone and singing. Hope to see you soon in the ORS!
+    <div class="committee-desc-socials">
+    </div>
+  </div>
 </div>
+
 <div id="description-dan" class="committee-description">
   <div class="left-panel">dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan</div>
   <div class="right-panel">dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan</div>
 </div>
+
 <div id="description-riya" class="committee-description">
-  <div class="left-panel">riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya</div>
-  <div class="right-panel">riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya riya</div>
+  <div class="left-panel">???</div>
+  <div class="right-panel">No info for Riya yet.</div>
 </div>
+
 <div id="description-rob" class="committee-description">
-  <div class="left-panel">rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob</div>
-  <div class="right-panel">rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob rob</div>
+  <div class="left-panel">???</div>
+  <div class="right-panel">No info for Rob yet.</div>
 </div>
+
 <div id="description-sam" class="committee-description">
-  <div class="left-panel">sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam</div>
-  <div class="right-panel">sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam sam</div>
+  <div class="left-panel">
+    Computer Science, 4th year
+  </div>
+  <div class="right-panel">
+    Hey! I'm a CompSci from Lancashire who's found himself managing ORS' web stuff this year! I have a bit of a history in web dev (obligatory "graphic design is my passion"), and love the culture that we're trying to build with the society, which is how I ended up here :)<br>
+    I'm into all sorts of music, but chances are I'm currently listening to Taylor Swift, Coldplay, The 1975 or Monstercat. I'm kinda obsessed with EDM, and very occasionally produce some that doesn't sound dreadful✨
+    <div class="committee-desc-socials">
+    </div>
+  </div>
 </div>
+
 <div id="description-alex" class="committee-description">
-  <div class="left-panel">alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex</div>
-  <div class="right-panel">alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex alex</div>
+  <div class="left-panel">???</div>
+  <div class="right-panel">No info for Alex yet.</div>
 </div>
+
 <div id="description-immie" class="committee-description">
-  <div class="left-panel">immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie</div>
-  <div class="right-panel">immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie immie</div>
+  <div class="left-panel">
+    MML Italian and Linguistics, 4th year
+  </div>
+  <div class="right-panel">
+    Hi I'm Imogen, I'm from St Peter's studying Italian, and I'm on the events team with Ryan. I'm so happy there's a music society set up at Oxford and hope I can bring good ideas to it. I don't play any instruments myself, but listening to music is my favourite thing in the world. I'll listen to anything going but punk and folk are welcome any time of day.
+    <div class="committee-desc-socials">
+      <a href="https://www.instagram.com/barrettimogen/" target="_blank"><img src="/images/socials/instagram-brands.svg" /></a>
+      <a href="https://facebook.com/imogen.barrett" target="_blank"><img src="/images/socials/facebook-square-brands.svg" /></a>
+      <a href="https://www.linkedin.com/in/imogen-barrett-b245bb1a1/" target="_blank"><img src="/images/socials/linkedin-brands.svg" /></a>
+    </div>
+  </div>
 </div>
+
 <div id="description-joel" class="committee-description">
-  <div class="left-panel">joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel</div>
-  <div class="right-panel">joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel joel</div>
+  <div class="left-panel">
+    PPE, 3rd year
+  </div>
+  <div class="right-panel">
+    Hi I'm Joel. As Artist’s Officer I’ll be responsible for running Ox Records and helping with members' musical projects. I'm into all kinds of music including R&B, Indie rock, soul and electronic.<br>
+    I was inspired to join the committee because there is so much untapped musical potential in Oxford that deserves to be showcased and supported.
+    <div class="committee-desc-socials">
+      <a href="https://www.instagram.com/jzjgold/" target="_blank"><img src="/images/socials/instagram-brands.svg" /></a>
+    </div>
+  </div>
 </div>
+
 <div id="description-eve" class="committee-description">
-  <div class="left-panel">eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve</div>
-  <div class="right-panel">eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve eve</div>
+  <div class="left-panel">
+    Classics, 4th year
+  </div>
+  <div class="right-panel">
+    I am a fourth year Classicist from London and part of the OxRecords Team, which is directly involved in running the ORS record label.  I love singing and songwriting and would like to try my hand at being an artist or songwriter after university, or get involved in Artists & Repertoire. I'm obsessed with writing lyrics and especially love The Wombats for theirs.
+    <div class="committee-desc-socials">
+      <a href="https://www.instagram.com/eve_rae_music/" target="_blank"><img src="/images/socials/instagram-brands.svg" /></a>
+      <a href="https://facebook.com/EveRaeMusic" target="_blank"><img src="/images/socials/facebook-square-brands.svg" /></a>
+    </div>
+  </div>
 </div>
+
 <div id="description-josh" class="committee-description">
-  <div class="left-panel">josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh</div>
-  <div class="right-panel">josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh josh</div>
+  <div class="left-panel">
+    History and Spanish, 2nd year
+  </div>
+  <div class="right-panel">
+    I’m from Birmingham. I wanted to get involved to help grow a new and exciting society and give budding artists the opportunities they deserve. I’m into all music genres but my favourite is indie rock. My favourite band is The 1975.
+    <div class="committee-desc-socials">
+      <a href="https://www.instagram.com/j.roosell/" target="_blank"><img src="/images/socials/instagram-brands.svg" /></a>
+    </div>
+  </div>
 </div>
+
 <div id="description-catherine" class="committee-description">
-  <div class="left-panel">catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine</div>
-  <div class="right-panel">catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine catherine</div>
+  <div class="left-panel">???</div>
+  <div class="right-panel">No info for Catherine yet.</div>
 </div>
+
 <div id="description-sofie" class="committee-description">
-  <div class="left-panel">sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie</div>
-  <div class="right-panel">sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie sofie</div>
+  <div class="left-panel">
+    English Language & Literature, 1st year
+  </div>
+  <div class="right-panel">
+    Hi! I'm Sofie, the Social Media Officer for the ORS. I'm originally from Spain and I'm super excited to explore the important role social media plays in the world of music, especially in times of Covid, where live gigs and posters seem to have been replaced with livestreams, stories and posts. I love playing guitar and writing music, and spend most of my time listening to artists like The 1975, Phoebe Bridgers, John Mayer and HAIM.
+    <div class="committee-desc-socials">
+      <a href="https://www.instagram.com/sofie.c.smith/" target="_blank"><img src="/images/socials/instagram-brands.svg" /></a>
+      <a href="https://soundcloud.com/philosofie_music" target="_blank"><img src="/images/socials/soundcloud-brands.svg" /></a>
+    </div>
+  </div>
 </div>
 
   </div>

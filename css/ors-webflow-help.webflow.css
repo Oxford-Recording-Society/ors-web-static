@@ -1993,12 +1993,14 @@ html{
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
   align-items: flex-end;
+  font-family: Roboto Mono;
 }
 
 .right-panel {
   position: static;
   width: 70%;
   padding-left: 15px;
+  min-width: 250px;
 }
 
 .image-25 {
@@ -2819,6 +2821,7 @@ html{
     font-family: 'Roboto Mono', sans-serif;
     font-size: 13px;
     font-weight: 300;
+    display: none;
   }
 
   .tabs-content-3 {
@@ -3019,6 +3022,18 @@ html{
 
 .nav-buttons, .nav-menu, .nav-bar, .nav-logo {
   transition: width 300ms cubic-bezier(0, 0, 0, 1.0);
+}
+
+.committee-desc-socials img{
+  height:32px;
+  margin: 5px 8px 0 0;
+  -webkit-filter: invert(1);
+  filter: invert(1);
+  transition: filter 100ms;
+}
+.committee-desc-socials img:hover{
+  -webkit-filter: invert(.8);
+  filter: invert(.8);
 }
 
 @font-face {
