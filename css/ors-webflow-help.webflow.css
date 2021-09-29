@@ -1914,7 +1914,7 @@ html{
   flex-direction: column;
   align-items: center;
   z-index:10;
-  height: 300px;
+  height: 350px;
   overflow: hidden;
   transition: height 300ms cubic-bezier(0, 0, 0, 1.0);
 }
@@ -1962,15 +1962,17 @@ html{
 
 .committee-description {
   display: flex;
-  max-width: 800px;
+  max-width: 1000px;
   transition: transform 300ms cubic-bezier(0, 0, 0, 1.0), opacity 300ms cubic-bezier(0, 0, 0, 1.0);
   position: absolute;
-  top:40px;
+  top:30px;
 }
 .committee-description-hidden {
   transform: translateY(300px);
   user-select: none;
   opacity: 0;
+  z-index: -1;
+  overflow-y: hidden;
 }
 
 .heading-11 {
@@ -1994,6 +1996,7 @@ html{
   -ms-flex-align: end;
   align-items: flex-end;
   font-family: Roboto Mono;
+  font-size: 0.9rem;
 }
 
 .right-panel {
@@ -3034,6 +3037,21 @@ html{
 .committee-desc-socials img:hover{
   -webkit-filter: invert(.8);
   filter: invert(.8);
+}
+.committee-desc-subtext{
+  font-family: Roboto Mono;
+  font-size: 0.9rem;
+  margin: 8px 0;
+}
+
+@media screen and (max-width:480px) {
+  .left-panel{
+    width:unset;
+    margin-bottom:25px;
+  }
+  .committee-description {
+    flex-direction: column;
+  }
 }
 
 @font-face {

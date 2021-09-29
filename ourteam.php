@@ -311,11 +311,16 @@ $('.member-with-dropdown').click(ev => {
   if (open===elem.id) { // closing
     open = null;
     $('#execdesccontainer').addClass("description-container-hidden");
+    $('#execdesccontainer').css('height', '');
   }
   else { //opening
     open = elem.id;
-    console.log(elem.id)
-    $('#description-'+elem.id).removeClass("committee-description-hidden");
+    $desc = $('#description-'+elem.id);
+
+    const containerHeight = ($desc.height()+75);
+    $('#execdesccontainer').css('height', containerHeight+'px');
+
+    $desc.removeClass("committee-description-hidden");
 
     const rect = elem.getBoundingClientRect();
 
@@ -336,6 +341,7 @@ $('.team-selector').click(_ => {
     open = null;
     $(".team-member-3-big").removeClass("team-member-focused");
     $('#execdesccontainer').addClass("description-container-hidden");
+    $('#execdesccontainer').css('height', '');
   }
 });
 
@@ -463,7 +469,7 @@ $('.team-selector').click(_ => {
     </div>
   </div>
 </div>
-
+  <!-- Credit to Font Awesome for the social media icons - licensed under Creative Commons Attribution 4.0 International -->
   </div>
 </div>
 </body>
