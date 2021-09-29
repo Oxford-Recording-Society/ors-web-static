@@ -353,17 +353,58 @@ $('.team-selector').click(_ => {
   <div class="div-block-36">
 
 <div id="description-jake" class="committee-description">
-  <div class="left-panel">???</div>
-  <div class="right-panel">No info for Jake yet.</div>
+<div class="left-panel">
+    // FAVOURITE ARTISTS<br>
+    EDEN, Travis Scott, The 1975, Dominic Fike
+    <br>&nbsp;<br>
+    // FAVOURITE ALBUMS<br>
+    no future - EDEN, Astroworld - Travis Scott, Currents- Tame Impala
+    <br>&nbsp;<br>
+    // FAVOURITE GENRES<br>
+    bedroom/indie pop, rap, country
+    <br>&nbsp;<br>
+    // GUILTY PLEASURE(s)<br>
+    soundcloud rap
+  </div>
+  <div class="right-panel">
+    No info for Jake yet.
+    <div class="committee-desc-subtext">
+      // INDUSTRY INTERESTS<br>
+      Literally Everything
+    </div>
+    <div class="committee-desc-socials">
+      <a href="https://www.instagram.com/lawsojake/" target="_blank"><img src="/images/socials/instagram-brands.svg" /></a>
+      <a href="https://twitter.com/jacoblawson115/" target="_blank"><img src="/images/socials/twitter-square-brands.svg" /></a>
+      <a href="https://soundcloud.com/merevale" target="_blank"><img src="/images/socials/soundcloud-brands.svg" /></a>
+      <a href="https://open.spotify.com/user/trnscrptmusic" target="_blank"><img src="/images/socials/spotify-brands.svg" /></a>
+    </div>
+  </div>
 </div>
 
 <div id="description-wolff" class="committee-description">
   <div class="left-panel">
-    Classics, 4th year
+    // FAVOURITE ARTISTS<br>
+    Billy Joel, Abba, Queen, Polo and Pan
+    <br>&nbsp;<br>
+    // FAVOURITE ALBUMS<br>
+    Grace by Jeff Buckley, Folsom Prison by Johnny Cash, Night at the Opera by Queen
+    <br>&nbsp;<br>
+    // FAVOURITE GENRES<br>
+    House, Soundtracks, Rock
+    <br>&nbsp;<br>
+    // GUILTY PLEASURE(s)<br>
+    old school K3 (only my Dutch speaking boiz, galz and other palz will know what this refers to; if they had a solid childhood that is)
   </div>
   <div class="right-panel">
-  Hi! I am Wolff, a Belgian student at Corpus reading Classics! I will be your Vice-President and will strive to uphold the goals of the society for all its members! The world of music should be open to everyone, so my goal is to give people the opportunity to enter that world and make their voices heard! My musical interests lie in film soundtracks, blues and folk (although this is just a selection really...cannot have a bop without some EDM). I do make my own music as well playing either the piano, guitar or tenor saxophone and singing. Hope to see you soon in the ORS!
+    Hey! I'm the VP of the ORS! Together with the president I make sure that all the different strands of the society come together and is able to function properly for all you lovely (future) members out there! I am also the music soc pres of Corpus and mainly make film soundtracky stuff, pop covers and do some production! Wanna be EdGy like me? Join the ORS! (Also check my links for music on the moon's future covers/originals)
+    <div class="committee-desc-subtext">
+      // INDUSTRY INTERESTS<br>
+      Music production & composition, organising concerts and workshops. <br>A big goal of mine is to make the music industry a safe space for everyone so that nobody can be taken advantage of when they are only just entering the industry.
+    </div>
     <div class="committee-desc-socials">
+      <a href="https://www.instagram.com/music_on_the_moon/" target="_blank"><img src="/images/socials/instagram-brands.svg" /></a>
+      <a href="https://www.instagram.com/wolff.wow/" target="_blank"><img src="/images/socials/instagram-brands.svg" /></a>
+      <a href="https://www.youtube.com/channel/UC6sqBXhAEOaKZZeM6RarZ9w" target="_blank"><img src="/images/socials/youtube-square-brands.svg" /></a>
     </div>
   </div>
 </div>
@@ -374,8 +415,30 @@ $('.team-selector').click(_ => {
 </div>
 
 <div id="description-riya" class="committee-description">
-  <div class="left-panel">???</div>
-  <div class="right-panel">No info for Riya yet.</div>
+<div class="left-panel">
+    // FAVOURITE ARTISTS<br>
+    Taylor Swift, Lorde, Frank Ocean, Jelani Aryeh
+    <br>&nbsp;<br>
+    // FAVOURITE ALBUMS<br>
+    Melodrama, Reputation, Blonde
+    <br>&nbsp;<br>
+    // FAVOURITE GENRES<br>
+    Alt Pop, Dream Pop, R&B
+    <br>&nbsp;<br>
+    // GUILTY PLEASURE(s)<br>
+    Christmas music in July
+  </div>
+  <div class="right-panel">
+    No info for Riya yet.
+    <div class="committee-desc-subtext">
+      // INDUSTRY INTERESTS<br>
+      Songwriting, Performance, Label Management
+    </div>
+    <div class="committee-desc-socials">
+      <a href="https://www.instagram.com/riyakatariax/" target="_blank"><img src="/images/socials/instagram-brands.svg" /></a>
+      <a href="https://twitter.com/riyakatariax/" target="_blank"><img src="/images/socials/twitter-square-brands.svg" /></a>
+    </div>
+  </div>
 </div>
 
 <div id="description-rob" class="committee-description">
@@ -385,11 +448,25 @@ $('.team-selector').click(_ => {
 
 <div id="description-sam" class="committee-description">
   <div class="left-panel">
-    Computer Science, 4th year
+    // FAVOURITE ARTISTS<br>
+    Coldplay, Taylor Swift, Ed Sheeran, The 1975
+    <br>&nbsp;<br>
+    // FAVOURITE ALBUMS<br>
+    Nurture by Porter Robinson, <|°_°|> by Caravan Palace, folklore/evermore by TS (sorry you just can't separate them)
+    <br>&nbsp;<br>
+    // FAVOURITE GENRES<br>
+    EDM, Pop, Indie
+    <br>&nbsp;<br>
+    // GUILTY PLEASURE(s)<br>
+    00s bops
   </div>
   <div class="right-panel">
     Hey! I'm a CompSci from Lancashire who's found himself managing ORS' web stuff this year! I have a bit of a history in web dev (obligatory "graphic design is my passion"), and love the culture that we're trying to build with the society, which is how I ended up here :)<br>
-    I'm into all sorts of music, but chances are I'm currently listening to Taylor Swift, Coldplay, The 1975 or Monstercat. I'm kinda obsessed with EDM, and very occasionally produce some that doesn't sound dreadful✨
+    I'm kinda obsessed with EDM, and very occasionally produce some that doesn't sound dreadful✨
+    <div class="committee-desc-subtext">
+      // INDUSTRY INTERESTS<br>
+      Music production, graphic design
+    </div>
     <div class="committee-desc-socials">
     </div>
   </div>
@@ -416,13 +493,26 @@ $('.team-selector').click(_ => {
 
 <div id="description-joel" class="committee-description">
   <div class="left-panel">
-    PPE, 3rd year
+    // FAVOURITE ARTISTS<br>
+    Bob Marley, the Beatles, RHCP, Calvin Harris
+    <br>&nbsp;<br>
+    // FAVOURITE ALBUMS<br>
+    Malibu - Anderson Paak, What Kinda Music - Tom Misch & Yussef Dayes, the Royal Scam - Steely Dan    <br>&nbsp;<br>
+    // FAVOURITE GENRES<br>
+    Soul, R&B, Electronic
+    <br>&nbsp;<br>
+    // GUILTY PLEASURE(s)<br>
+    80s cheese 🧀 🧀
   </div>
   <div class="right-panel">
-    Hi I'm Joel. As Artist’s Officer I’ll be responsible for running Ox Records and helping with members' musical projects. I'm into all kinds of music including R&B, Indie rock, soul and electronic.<br>
-    I was inspired to join the committee because there is so much untapped musical potential in Oxford that deserves to be showcased and supported.
+  Hey! I’m Joel, a third year PPEist at St Peter’s and Artist’s Officer for the ORS. With the help of the OX Records team (Eve and Josh) I connect musicians with venues and events that need performers. I also help to promote and release Oxford based musicians’ projects! <br>
+  I play bass guitar in various bands and I love all types of music. At the moment I’m listening to Soul, R&B and some Electronic.
+    <div class="committee-desc-subtext">
+      // INDUSTRY INTERESTS<br>
+      A&R work, music production, business strategy
+    </div>
     <div class="committee-desc-socials">
-      <a href="https://www.instagram.com/jzjgold/" target="_blank"><img src="/images/socials/instagram-brands.svg" /></a>
+      <a href="https://www.facebook.com/joel.gold.12" target="_blank"><img src="/images/socials/facebook-square-brands.svg" /></a>
     </div>
   </div>
 </div>
