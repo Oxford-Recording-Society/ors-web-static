@@ -4985,6 +4985,21 @@ html{
   }
 }
 
+.embed-widget {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Roboto Mono, monospace;
+  font-size: 2rem;
+  color: #aaa;
+  gap: 30px;
+padding-top: 75px;
+}
+.embed-widget .ors-footer-socials img {
+  height:64px;
+  margin: 0 64px;
+}
+
 @font-face {
   font-family: 'Bernoru Condensed';
   src: url('../fonts/Bernoru-BlackUltraCondensed.woff') format('woff'), url('../fonts/Bernoru-BlackCondensed.woff') format('woff'), url('../fonts/Bernoru-BlackSemiCondensed.woff') format('woff');

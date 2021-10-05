@@ -344,13 +344,19 @@
         <div class="div-block-21 marquee marquee-static marquee-small">
           <p class="paragraph marquee">// SOCIAL MEDIA  // SOCIAL MEDIA  // SOCIAL MEDIA  // SOCIAL MEDIA  // SOCIAL MEDIA  // SOCIAL MEDIA  // SOCIAL MEDIA  // SOCIAL MEDIA  // SOCIAL MEDIA  // SOCIAL MEDIA  // SOCIAL MEDIA  // SOCIAL MEDIA</p>
         </div>
-        <div class="embed-widget"></div>
+        <div class="embed-widget">
+            <div class="ors-footer-socials">
+							<a href="https://facebook.com/oxfordrecordingsoc/" target="_blank"><img src="/images/socials/facebook-square-brands.svg" height="32px" /></a>
+							<a href="https://www.instagram.com/oxfordrecordingsoc/" target="_blank"><img src="/images/socials/instagram-brands.svg" height="32px" /></a>
+						</div>
+            @oxfordrecordingsoc
+        </div>
       </div>
       <div class="home-small-sections sub-sections">
         <div class="div-block-21 marquee marquee-static marquee-small">
           <p class="paragraph marquee">// EVENTS   // EVENTS   // EVENTS   // EVENTS   // EVENTS   // EVENTS   // EVENTS   // EVENTS   // EVENTS   // EVENTS   </p>
         </div>
-        <div class="embed-widget"></div>
+        <div class="embed-widget">Events coming soon!</div>
       </div>
     </div>
   </div>
