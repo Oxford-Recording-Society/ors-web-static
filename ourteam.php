@@ -108,7 +108,7 @@
             <div class="sub-team-3 sub-team-2">
               <div class="div-block-41 subteam-desc-3 subteam-desc-2">
                 <h1 class="team-title team-title-2">FINANCE TEAM</h1>
-                <p class="paragraph-7 paragraph-7-2">The <span class="text-span">FINANCE TEAM</span> is responsible for all things financial within the ORS, including negotiating member benefits, yearly and termly budgets, and leading financial and business strategy.</p>
+                <p class="paragraph-7 paragraph-7-2">The <span class="text-span">FINANCE TEAM</span> is responsible for all things financial within the ORS, including negotiating benefits for members, drawing up yearly and termly budgets, and leading financial and business strategy to help the ORS grow and achieve our goals.</p>
               </div>
               <div id="riya" class="team-member-3 team-member-2 member-with-dropdown">
                 <div class="name-and-college name-and-college-2">
@@ -140,7 +140,7 @@
             <div class="sub-team-3 sub-team-2">
               <div class="div-block-41 subteam-desc-3 subteam-desc-2">
                 <h1 class="team-title team-title-2">DEV TEAM</h1>
-                <p class="paragraph-7 paragraph-7-2">The <span class="text-span">DEV TEAM</span> is responsible for the development, updates and maintenance of the ORS members web platform, and work hard to ensure all members get an easy-to-use experience with our platform.</p>
+                <p class="paragraph-7 paragraph-7-2">The <span class="text-span">DEV TEAM</span> lead the music media aspect of Oxford's student-led music industry, creating aesthetic marketing, branding and social media material for all our events &amp; initiatives, and helping get the word out there about the society.</p>
               </div>
               <div id="sam" class="team-member-3 team-member-2 member-with-dropdown">
                 <div class="name-and-college name-and-college-2">
@@ -172,7 +172,7 @@
             <div class="sub-team-3 sub-team-2">
               <div class="div-block-41 subteam-desc-3 subteam-desc-2">
                 <h1 class="team-title team-title-2">EVENTS TEAM</h1>
-                <p class="paragraph-7 paragraph-7-2">The <span class="text-span">EVENTS TEAM</span> organise all our large events, from speaker events &amp; workshops to club nights and gigs. They deal with invites, logistics and leading our other teams to prepare marketing material &amp; plans. </p>
+                <p class="paragraph-7 paragraph-7-2">The <span class="text-span">EVENTS TEAM</span> organises all our large events, dealing with invites, events logistics and leading our other teams to prepare design and marketing material. They arrange a diverse selection of our events, from speaker events &amp; workshops to club nights and gigs.</p>
               </div>
               <div id="immie" class="team-member-3 team-member-2 member-with-dropdown">
                 <div class="name-and-college name-and-college-2">
@@ -192,7 +192,7 @@
                 <div class="role-descriptor">
                   <div class="div-block-34"></div>
                   <div class="div-block-35"></div>
-                  <div class="text-block-6 text-block-6-2">// ???</div>
+                  <div class="text-block-6 text-block-6-2">// MUSIC EVENTS OFFICER</div>
                 </div>
               </div>
             </div>
@@ -201,7 +201,7 @@
             <div class="team-member-3 team-desc">
               <div class="subteam-desc-3">
                 <h1 class="team-title">OX RECORDS TEAM</h1>
-                <p class="paragraph-7">The <span class="text-span">EXECUTIVE TEAM</span> oversees all areas of the Oxford Recording Society, including leading the committee and maintaining a long term vision for the direction the ORS wants to head in the future.</p>
+                <p class="paragraph-7">The <span class="text-span">OX RECORDS TEAM</span> run our record label Ox Records, and are also responsible for anything musical within the ORS, whether that be getting in contact with our musicians, facilitating collaboration or organising studio sessions.</p>
               </div>
             </div>
             <div id="joel" class="team-member-3 member-with-dropdown">
@@ -247,8 +247,8 @@
           <div class="sub-team-3">
             <div class="team-member-3 team-desc">
               <div class="subteam-desc-3">
-                <h1 class="team-title">MARKETING &amp; MEDIA TEAM</h1>
-                <p class="paragraph-7">The <span class="text-span">EXECUTIVE TEAM</span> oversees all areas of the Oxford Recording Society, including leading the committee and maintaining a long term vision for the direction the ORS wants to head in the future.</p>
+                <h1 class="team-title">MEDIA &amp; MARKETING TEAM</h1>
+                <p class="paragraph-7">The <span class="text-span">MEDIA &amp; MARKETING TEAM</span> lead the music media aspect of Oxford's student-led music industry, creating aesthetic marketing, branding and social media material for all our events &amp; initiatives, and helping get the word out there about the society.</p>
               </div>
             </div>
             <div id="catherine" class="team-member-3 member-with-dropdown">
@@ -261,7 +261,7 @@
               <div class="role-descriptor">
                 <div class="div-block-34"></div>
                 <div class="div-block-35"></div>
-                <div class="text-block-6">// ___</div>
+                <div class="text-block-6">// MARKETING OFFICER</div>
               </div>
             </div>
             <div id="sofie" class="team-member-3 member-with-dropdown"><img src="/images/sofie.jpg" loading="lazy" alt="" class="team-image">
