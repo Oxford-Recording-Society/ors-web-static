@@ -801,7 +801,7 @@ html{
   margin-bottom: 3.5%;
   font-family: 'Roboto Mono', sans-serif;
   color: #fff;
-  font-size: 1.25vw;
+  font-size: max(1.25vw, 0.75rem);
   line-height: 25px;
   font-style: italic;
   font-weight: 200;
@@ -2202,6 +2202,7 @@ html{
   -ms-flex-align: end;
   align-items: flex-end;
   background-color: #161616;
+  overflow-x: hidden;
 }
 @media screen and (min-width: 1440px) {
   .nav-bar.nav-bar-landing {
@@ -2323,6 +2324,7 @@ html{
   margin: 0px;
   background-color: hsla(0, 0%, 100%, 0);
   color: #fff;
+  z-index: 1;
 }
 
 .landing-area, .slider-3 {
@@ -4389,10 +4391,6 @@ html{
     justify-content: center;
   }
 
-  .landing-panel {
-    width: 100%;
-  }
-
   .slide-1.slide-parallax {
     background-image: url('../images/Untitled-design-2.png');
     background-position: 80% 50%;
@@ -4557,10 +4555,6 @@ html{
     align-items: flex-start;
   }
 
-  .landing-panel {
-    width: 100%;
-    height: 50%;
-  }
   .team-member-3.team-desc {
     transform: initial;
   }
@@ -4712,9 +4706,7 @@ html{
     /* padding-left: 30px;
     padding-right: 30px; */
   }
-  .heading-4, .titletext{
-    padding-left: 30px;
-  }
+
   .div-block-8 {
     position: absolute;
     right: 0;
@@ -4736,16 +4728,6 @@ html{
     min-height: auto;
   }
 
-  .titletext.outlinetext {
-    font-size: 17.5vw;
-    line-height: 2vw;
-  }
-
-  .titletext.recording {
-    font-size: 17.5vw;
-    line-height: 4vw;
-  }
-
   .div-block-12 {
     width: 210px;
     height: 60px;
@@ -4757,7 +4739,7 @@ html{
   }
 
   .landing-subtitle {
-    font-size: 4vw;
+    /* font-size: 4vw; */
     white-space: pre-wrap;
   }
 
@@ -4970,10 +4952,10 @@ html{
     display: block;
     margin-bottom: 0px;
   }
-
   .text-span-9 {
     background-color: #fff;
     text-align: justify;
+    color:#000;
   }
 
   .paragraph-14 {
