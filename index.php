@@ -78,9 +78,9 @@
         </picture>
       </div>
     </div>
-    <div class="div-block-21 marquee hello">
-      <p class="paragraph marquee">ORS // UNIVERSITY OF OXFORD&#x27;S STUDENT MUSIC INDUSTRY HUB    ORS // UNIVERSITY OF OXFORD&#x27;S STUDENT MUSIC INDUSTRY HUB    ORS // UNIVERSITY OF OXFORD&#x27;S STUDENT MUSIC INDUSTRY HUB    ORS // UNIVERSITY OF OXFORD&#x27;S STUDENT MUSIC INDUSTRY HUB    ORS // UNIVERSITY OF OXFORD&#x27;S STUDENT MUSIC INDUSTRY HUB</p>
-    </div>
+  </div>
+  <div class="marquee">
+    <p class="paragraph marquee">ORS // UNIVERSITY OF OXFORD&#x27;S STUDENT MUSIC INDUSTRY HUB    ORS // UNIVERSITY OF OXFORD&#x27;S STUDENT MUSIC INDUSTRY HUB    ORS // UNIVERSITY OF OXFORD&#x27;S STUDENT MUSIC INDUSTRY HUB    ORS // UNIVERSITY OF OXFORD&#x27;S STUDENT MUSIC INDUSTRY HUB    ORS // UNIVERSITY OF OXFORD&#x27;S STUDENT MUSIC INDUSTRY HUB</p>
   </div>
   <div data-delay="4000" data-animation="slide" data-autoplay="1" data-duration="500" data-infinite="1" class="slider-3 w-slider">
     <div class="div-block-6"></div>
