@@ -1194,7 +1194,7 @@ html{
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
-  background-image: url('../images/Untitled-design-2.png');
+  background-image: url('../images/goal1.jpg');
   background-position: 100% 0%;
   background-size: cover;
   background-attachment: fixed;
@@ -1294,7 +1294,7 @@ html{
 }
 
 .slide {
-  background-image: url('../images/goal3.PNG');
+  background-image: url('../images/goal3.jpg');
   background-position: 0px 0px;
   background-size: cover;
   background-attachment: scroll;
@@ -2504,7 +2504,7 @@ html{
 }
 
 .slide-1 {
-  background-image: url('../images/Untitled-design-2.png');
+  background-image: url('../images/goal1.jpg');
   background-position: 0px 0px;
   background-size: cover;
   background-attachment: fixed;
@@ -2513,7 +2513,7 @@ html{
 .slide-1.slide-parallax {
   position: relative;
   z-index: 2;
-  background-image: url('../images/Untitled-design-2.png');
+  background-image: url('../images/goal1.jpg');
   background-position: 0px 0px;
   background-size: cover;
 }
@@ -2948,42 +2948,42 @@ html{
 
 .slide-3 {
   z-index: 2;
-  background-image: url('../images/goal3.PNG');
+  background-image: url('../images/goal3.jpg');
   background-position: 0px 0px;
   background-size: auto;
 }
 
 .slide-4 {
   z-index: 2;
-  background-image: url('../images/goal4-min.PNG');
+  background-image: url('../images/goal4.jpg');
   background-position: 0px 0px;
   background-size: cover;
 }
 
 .slide-5 {
   z-index: 2;
-  background-image: url('../images/goal5.PNG');
+  background-image: url('../images/goal5.jpg');
   background-position: 0px 0px;
   background-size: cover;
 }
 
 .slide-6 {
   z-index: 2;
-  background-image: url('../images/goal6.PNG');
+  background-image: url('../images/goal6.jpg');
   background-position: 0px 0px;
   background-size: cover;
 }
 
 .slide-7 {
   z-index: 2;
-  background-image: url('../images/goal7.PNG');
+  background-image: url('../images/goal7.jpg');
   background-position: 0px 0px;
   background-size: cover;
 }
 
 .slide-8 {
   z-index: 2;
-  background-image: url('../images/goal8-min.PNG');
+  background-image: url('../images/goal8.jpg');
   background-position: 0px 0px;
   background-size: cover;
 }
@@ -4388,7 +4388,7 @@ html{
   }
 
   .slide-1.slide-parallax {
-    background-image: url('../images/Untitled-design-2.png');
+    background-image: url('../images/goal1.jpg');
     background-position: 80% 50%;
     background-size: cover;
     background-attachment: fixed;
