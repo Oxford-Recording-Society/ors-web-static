@@ -303,6 +303,21 @@ const TRIANGLE_IMAGE_WIDTH = 100;
 const CONTAINER_MARGIN = 16;
 let open = null;
 
+window.addEventListener('resize',  _ => { // Move description & triangle when the layout changes
+  if(open!==null){
+    const mugshotElem = $('#'+open)[0];
+    desc = $('#description-'+open);
+
+    const containerHeight = (desc.height()+75);
+    $('#execdesccontainer').css('height', containerHeight+'px');
+    const mugshotRect = mugshotElem.getBoundingClientRect();
+    const trianglePos = mugshotRect.x + (mugshotRect.width/2) - (TRIANGLE_IMAGE_WIDTH/2);
+    $('#triangle-image').css('left', trianglePos+'px');
+    const containerPos = mugshotRect.bottom + window.scrollY + CONTAINER_MARGIN;
+    $('#execdesccontainer').css('top', containerPos+'px');
+  }
+});
+
 $('.member-with-dropdown').click(ev => {
   const elem = ev.currentTarget;
   $('.team-member-focused').removeClass("team-member-focused");
