@@ -4983,13 +4983,24 @@ padding-top: 75px;
   padding-bottom:150px;
   min-height:100vh;
   display: flex;
-  max-width: 1450px;
+  max-width: 1600px;
   margin:auto;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: flex-start;
   font-family: Roboto Mono;
 }
+
+@media screen and (max-width: 1350px) {
+  .ors-page-membership-container{
+    width: 100%;
+    max-width: unset;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+}
+
 .ors-page-membership-title{
   font-size:4rem;
   font-weight: 400;
@@ -5011,7 +5022,7 @@ padding-top: 75px;
 }
 .ors-page-membership-box-1 a img{
   filter:invert(1);
-  height:28px;
+  height:20px;
   padding-right: 8px;
   transition: filter 200ms ease-out;
 }
@@ -5074,15 +5085,21 @@ padding-top: 75px;
   font-size: 0.8rem;
   margin-bottom: 15px;
 }
+.ors-page-membership-box li{
+  margin-bottom: 8px;
+}
 
 .ors-page-membership-box.coolBox{
   border-color: rgb(255, 143, 0);
   width: 450px;
 }
-.uppercase{
-  text-transform: uppercase;
-}
 
+@media screen and (max-width: 600px) {
+  .ors-page-membership-box-1, .ors-page-membership-box{
+    padding: 10px;
+    width: 100%;
+  }
+}
 
 .ors-button{
   background-color: #ffffff00;
@@ -5105,13 +5122,21 @@ padding-top: 75px;
   z-index: 10;
 }
 .ors-button:hover {
-    background-color: #fff;
-    color: #000;
-    font-style: normal;
-    font-weight: 400;
-  }
+  background-color: #fff;
+  color: #000;
+  font-style: normal;
+  font-weight: 400;
 }
 
+.uppercase{
+  text-transform: uppercase;
+}
+
+.highlight{
+  /* background-color: #fff;
+  color: #000; */
+  text-decoration: underline;
+}
 
 
 @font-face {

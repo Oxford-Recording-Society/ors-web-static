@@ -55,7 +55,7 @@
       <ul>
         <li>Free access to Member socials & Member database - connect with ORS members, musicians, and find music industry collab opportunities</li>
         <li>Access to our Opportunities feed - a stream of musical opportunities (songwriting/production collabs, performance opportunities (open mic, busking etc.), making art & videos, management & events planning, and more)</li>
-        <li>Free access to production & performing workshops, and speaker events (next term and beyond)</li>
+        <li>Free access to industry workshops and speaker events (next term and beyond)</li>
         <li>Record, produce, mix and master your work with a producer/engineer at SAE studios</li>
         <li>Release your music through OX Records (album art, mixing/mastering, distribution & promotion services), or get involved behind the scenes</li>
       </ul>
