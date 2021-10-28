@@ -4978,6 +4978,142 @@ padding-top: 75px;
   margin: 0 64px;
 }
 
+.ors-page-membership-container{
+  padding-top:250px;
+  padding-bottom:150px;
+  min-height:100vh;
+  display: flex;
+  max-width: 1450px;
+  margin:auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  font-family: Roboto Mono;
+}
+.ors-page-membership-title{
+  font-size:4rem;
+  font-weight: 400;
+  line-height:0.75;
+  padding-bottom: 35px;
+}
+
+.ors-page-membership-box-1{
+  width: 500px;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ors-page-membership-box-1 i{
+  color:#afaeae;
+  padding-bottom: 25px;
+  display: inline-block;
+}
+.ors-page-membership-box-1 a img{
+  filter:invert(1);
+  height:28px;
+  padding-right: 8px;
+  transition: filter 200ms ease-out;
+}
+.ors-page-membership-box-1 a{
+  align-self: flex-end;
+  margin-top:30px;
+}
+.ors-page-membership-box-1 a:hover img{
+  filter:invert(0);
+}
+
+.ors-page-membership-box {
+  width: 350px;
+  padding: 15px 25px;
+  border: solid 3px #fff;
+  border-bottom-left-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ors-page-membership-box h1.price{
+  font-size:5rem;
+  margin-top: -20px;
+  margin-bottom: 15px;
+}
+.ors-page-membership-box h2.price{
+  font-size:3rem;
+  margin-top: -30px;
+  margin-bottom: 15px;
+  font-family: var(--heading--font-family);
+}
+.ors-page-membership-container .price-alert{
+  text-transform: uppercase;
+  color:#fff;
+  background-color: rgb(255, 143, 0);
+  display: inline-block;
+  font-size: 0.8rem;
+  padding: 0 5px;
+  margin-left: 20px;
+  font-family: Roboto Mono;
+}
+
+.ors-page-membership-box .team-title{
+  font-size:1rem;
+}
+.ors-page-membership-box h2{
+  font-family: Roboto Mono;
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 400;
+}
+.ors-page-membership-box h3{
+  font-family: 'Lulo clean one', sans-serif;
+  font-size: 0.8rem;
+  margin-bottom: 8px;
+}
+.ors-page-membership-box ul{
+  padding-left: 20px;
+  font-size: 0.8rem;
+  margin-bottom: 15px;
+}
+
+.ors-page-membership-box.coolBox{
+  border-color: rgb(255, 143, 0);
+  width: 450px;
+}
+.uppercase{
+  text-transform: uppercase;
+}
+
+
+.ors-button{
+  background-color: #ffffff00;
+  border: 2px solid #fff;
+  display: inline-block;
+  font-family: 'Lulo clean one', 'Roboto Mono', sans-serif;
+  font-size: 0.625rem; /*10px*/
+  font-weight: 400;
+  line-height:20px;
+  margin: var(--primary-nav--padding) 8px 0;
+  min-height:32px;
+  padding: 4px 15px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition: background-color 200ms ease-out, color 200ms ease-out;
+  transition: background-color 200ms ease-out, color 200ms ease-out;
+  white-space: nowrap;
+  z-index: 10;
+}
+.ors-button:hover {
+    background-color: #fff;
+    color: #000;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+
+
+
 @font-face {
   font-family: 'Bernoru Condensed';
   src: url('../fonts/Bernoru-BlackUltraCondensed.woff') format('woff'), url('../fonts/Bernoru-BlackCondensed.woff') format('woff'), url('../fonts/Bernoru-BlackSemiCondensed.woff') format('woff');

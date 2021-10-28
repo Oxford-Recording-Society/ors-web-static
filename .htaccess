@@ -3,6 +3,7 @@
 
 Header set Access-Control-Allow-Origin '*'
 RewriteRule ^ourteam/$ /ourteam.php [L]
+RewriteRule ^membership/$ /membership.php [L]
 
 
 # BEGIN WordPress
