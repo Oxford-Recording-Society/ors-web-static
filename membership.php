@@ -41,7 +41,7 @@
     <u>studio recording</u> opportunities
     and our own <u>record label</u>.</p>
 
-    <a class="ors-button" href=""><img src="/images/download-solid.svg" /> Membership Brochure</a>
+    <a class="ors-button" href="https://oxrs.uk/wp-content/uploads/2021/11/Launch-Booklet-Reak.pdf"><img src="/images/download-solid.svg" /> Membership Brochure</a>
   </div>
 
   <div class="team-member-3 team-desc">
