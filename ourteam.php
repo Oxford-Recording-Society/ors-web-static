@@ -90,7 +90,7 @@
                 </div>
               </div>
             </div>
-            <div id="dan" class="team-member-3"><img src="/images/Dan.jpg" loading="lazy" alt="" class="team-image">
+            <div id="dan" class="team-member-3 member-with-dropdown"><img src="/images/Dan.jpg" loading="lazy" alt="" class="team-image">
               <div class="role-descriptor">
                 <div class="div-block-34"></div>
                 <div class="div-block-35"></div>
@@ -277,15 +277,18 @@
                 </div>
               </div>
             </div>
-            <div id="dan" class="team-member-3 member-with-dropdown"><img src="/images/APPLY.jpg" loading="lazy" alt="" class="team-image">
-              <div class="role-descriptor">
-                <div class="div-block-34"></div>
-                <div class="div-block-35"></div>
-                <div class="text-block-6">// CREATIVE DIRECTOR</div>
-              </div>
-              <div class="name-and-college">
-                <div class="college"></div>
-              </div>
+            <div class="team-member-3">
+              <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=G96VzPWXk0-0uv5ouFLPkStGIYr39BFEswJRxaDWKN1UNDFXTEowWlMxRUU3VU0zTElWWUZIT1hWQi4u" target="_blank">
+                <img src="/images/APPLY.jpg" loading="lazy" alt="" class="team-image">
+                <div class="role-descriptor">
+                  <div class="div-block-34"></div>
+                  <div class="div-block-35"></div>
+                  <div class="text-block-6">// CREATIVE DIRECTOR</div>
+                </div>
+                <div class="name-and-college">
+                  <div class="college"></div>
+                </div>
+              </a>
             </div>
           </div>
         </div>
