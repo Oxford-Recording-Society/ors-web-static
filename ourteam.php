@@ -70,36 +70,36 @@
                 <div class="college"><img src="/images/worcester.png" loading="lazy" alt="" class="image-24">
                   <p class="paragraph-6">Worcester</p>
                 </div>
-              </div><img src="/images/Jake.jpg" loading="lazy" alt="" class="team-image">
+              </div><img src="/images/ourteam/jake.jpg" loading="lazy" alt="" class="team-image">
               <div class="role-descriptor">
                 <div class="div-block-34"></div>
                 <div class="div-block-35"></div>
                 <div class="text-block-6">// PRESIDENT</div>
               </div>
             </div>
-            <div id="wolff" class="member-with-dropdown team-member-3"><img src="/images/wolff.jpg" loading="lazy" alt="" class="team-image">
+            <div id="ben" class="member-with-dropdown team-member-3"><img src="/images/APPLY.jpg" loading="lazy" alt="" class="team-image">
               <div class="role-descriptor">
                 <div class="div-block-34"></div>
                 <div class="div-block-35"></div>
-                <div class="text-block-6">// VP/SECRETARY</div>
+                <div class="text-block-6">// VICE-PRESIDENT</div>
               </div>
               <div class="name-and-college">
-                <h1 class="heading-10">wolff</h1>
+                <h1 class="heading-10">ben</h1>
                 <div class="college"><img src="/images/worcester.png" loading="lazy" alt="" class="image-24">
-                  <p class="paragraph-6">Corpus Christi</p>
+                  <p class="paragraph-6">Christ Church</p>
                 </div>
               </div>
             </div>
-            <div id="dan" class="team-member-3 member-with-dropdown"><img src="/images/Dan.jpg" loading="lazy" alt="" class="team-image">
+            <div id="giorgia" class="member-with-dropdown team-member-3"><img src="/images/ourteam/giorgia.jpg" loading="lazy" alt="" class="team-image">
               <div class="role-descriptor">
                 <div class="div-block-34"></div>
                 <div class="div-block-35"></div>
-                <div class="text-block-6">// SENIOR MEMBER</div>
+                <div class="text-block-6">// SECRETARY</div>
               </div>
               <div class="name-and-college">
-                <h1 class="heading-10">dan</h1>
+                <h1 class="heading-10">giorgia</h1>
                 <div class="college"><img src="/images/worcester.png" loading="lazy" alt="" class="image-24">
-                  <p class="paragraph-6">Oxford Music Department</p>
+                  <p class="paragraph-6">St Hilda&#x27;s</p>
                 </div>
               </div>
             </div>
@@ -107,8 +107,8 @@
           <div class="div-block-40">
             <div class="sub-team-3 sub-team-2">
               <div class="div-block-41 subteam-desc-3 subteam-desc-2">
-                <h1 class="team-title team-title-2">FINANCE TEAM</h1>
-                <p class="paragraph-7 paragraph-7-2">The <span class="text-span">FINANCE TEAM</span> is responsible for all things financial within the ORS, including negotiating benefits for members, drawing up yearly and termly budgets, and leading financial and business strategy to help the ORS grow and achieve our goals.</p>
+                <h1 class="team-title team-title-2">ADMIN TEAM</h1>
+                <p class="paragraph-7 paragraph-7-2">The <span class="text-span">ADMIN TEAM</span> is responsible for all things financial & technical within the ORS, including creating &amp; negotiating benefits for members, drawing up yearly and termly budgets, and leading financial and business strategy to help the ORS grow and achieve our goals.</p>
               </div>
               <div id="riya" class="team-member-3 team-member-2 member-with-dropdown">
                 <div class="name-and-college name-and-college-2">
@@ -116,31 +116,12 @@
                   <div class="college"><img src="/images/worcester.png" loading="lazy" alt="" class="image-24">
                     <p class="paragraph-6">St Catherine&#x27;s</p>
                   </div>
-                </div><img src="/images/riya.jpg" loading="lazy" alt="" class="team-image">
+                </div><img src="/images/ourteam/riya.jpg" loading="lazy" alt="" class="team-image">
                 <div class="role-descriptor">
                   <div class="div-block-34"></div>
                   <div class="div-block-35"></div>
                   <div class="text-block-6 text-block-6-2">// TREASURER</div>
                 </div>
-              </div>
-              <div id="rob" class="team-member-3 team-member-2 member-with-dropdown">
-                <div class="name-and-college name-and-college-2">
-                  <h1 class="heading-10 heading-10-small">rob</h1>
-                  <div class="college"><img src="/images/worcester.png" loading="lazy" alt="" class="image-24">
-                    <p class="paragraph-6">Worcester</p>
-                  </div>
-                </div><img src="/images/rob.jpg" loading="lazy" alt="" class="team-image">
-                <div class="role-descriptor">
-                  <div class="div-block-34"></div>
-                  <div class="div-block-35"></div>
-                  <div class="text-block-6 text-block-6-2">// FINANCE OFFICER</div>
-                </div>
-              </div>
-            </div>
-            <div class="sub-team-3 sub-team-2">
-              <div class="div-block-41 subteam-desc-3 subteam-desc-2">
-                <h1 class="team-title team-title-2">DEV TEAM</h1>
-                <p class="paragraph-7 paragraph-7-2">The <span class="text-span">DEV TEAM</span> lead the music media aspect of Oxford's student-led music industry, creating aesthetic marketing, branding and social media material for all our events &amp; initiatives, and helping get the word out there about the society.</p>
               </div>
               <div id="sam" class="team-member-3 team-member-2 member-with-dropdown">
                 <div class="name-and-college name-and-college-2">
@@ -148,24 +129,43 @@
                   <div class="college"><img src="/images/worcester.png" loading="lazy" alt="" class="image-24">
                     <p class="paragraph-6">St Catherine&#x27;s</p>
                   </div>
-                </div><img src="/images/sam.jpg" loading="lazy" alt="" class="team-image">
+                </div><img src="/images/ourteam/sam.jpg" loading="lazy" alt="" class="team-image">
                 <div class="role-descriptor">
                   <div class="div-block-34"></div>
                   <div class="div-block-35"></div>
                   <div class="text-block-6 text-block-6-2">// IT OFFICER</div>
                 </div>
               </div>
-              <div id="alex" class="team-member-3 team-member-2 member-with-dropdown">
+            </div>
+            <div class="sub-team-3 sub-team-2">
+              <div class="div-block-41 subteam-desc-3 subteam-desc-2">
+                <h1 class="team-title team-title-2">MEDIA &amp; MARKETING TEAM</h1>
+                <p class="paragraph-7 paragraph-7-2">The <span class="text-span">MEDIA &amp; MARKETING TEAM</span> lead the music media aspect of Oxford's student-led music industry, creating aesthetic marketing, branding and social media material for all our events &amp; initiatives, and helping get the word out there about the society.</p>
+              </div>
+              <div id="sofie" class="team-member-3 team-member-2 member-with-dropdown">
                 <div class="name-and-college name-and-college-2">
-                  <h1 class="heading-10 heading-10-small">alex</h1>
+                  <h1 class="heading-10 heading-10-small">sofie</h1>
                   <div class="college"><img src="/images/worcester.png" loading="lazy" alt="" class="image-24">
-                    <p class="paragraph-6">Oriel</p>
+                    <p class="paragraph-6">St Peter&#x27;s</p>
                   </div>
-                </div><img src="/images/alexandru.jpg" loading="lazy" alt="" class="team-image">
+                </div><img src="/images/ourteam/sofie.jpg" loading="lazy" alt="" class="team-image">
                 <div class="role-descriptor">
                   <div class="div-block-34"></div>
                   <div class="div-block-35"></div>
-                  <div class="text-block-6 text-block-6-2">// WEB DEVELOPER</div>
+                  <div class="text-block-6 text-block-6-2">// SOCIAL MEDIA OFFICER</div>
+                </div>
+              </div>
+              <div id="catherine" class="team-member-3 team-member-2 member-with-dropdown">
+                <div class="name-and-college name-and-college-2">
+                  <h1 class="heading-10 heading-10-small">catherine</h1>
+                  <div class="college"><img src="/images/worcester.png" loading="lazy" alt="" class="image-24">
+                    <p class="paragraph-6">Mansfield</p>
+                  </div>
+                </div><img src="/images/ourteam/catherine.jpg" loading="lazy" alt="" class="team-image">
+                <div class="role-descriptor">
+                  <div class="div-block-34"></div>
+                  <div class="div-block-35"></div>
+                  <div class="text-block-6 text-block-6-2">// MARKETING OFFICER</div>
                 </div>
               </div>
             </div>
@@ -174,21 +174,26 @@
                 <h1 class="team-title team-title-2">EVENTS TEAM</h1>
                 <p class="paragraph-7 paragraph-7-2">The <span class="text-span">EVENTS TEAM</span> organises all our large events, dealing with invites, events logistics and leading our other teams to prepare design and marketing material. They arrange a diverse selection of our events, from speaker events &amp; workshops to club nights and gigs.</p>
               </div>
-              <div id="immie" class="team-member-3 team-member-2 member-with-dropdown">
+              <div id="gavin" class="team-member-3 team-member-2 member-with-dropdown">
                 <div class="name-and-college name-and-college-2">
-                  <h1 class="heading-10 heading-10-small">immie</h1>
+                  <h1 class="heading-10 heading-10-small">gavin</h1>
                   <div class="college"><img src="/images/worcester.png" loading="lazy" alt="" class="image-24">
-                    <p class="paragraph-6">St Peter&#x27;s</p>
+                    <p class="paragraph-6">Kellogg</p>
                   </div>
-                </div><img src="/images/immie.jpg" loading="lazy" alt="" class="team-image">
+                </div><img src="/images/APPLY.jpg" loading="lazy" alt="" class="team-image">
                 <div class="role-descriptor">
                   <div class="div-block-34"></div>
                   <div class="div-block-35"></div>
                   <div class="text-block-6 text-block-6-2">// SPEAKER EVENTS OFFICER</div>
                 </div>
               </div>
-              <div id="eventsUnknown" class="team-member-3 team-member-2">
-                <div class="name-and-college"></div><img src="/images/APPLY.jpg" loading="lazy" alt="" class="team-image">
+              <div id="joel" class="team-member-3 team-member-2 member-with-dropdown">
+                <div class="name-and-college name-and-college-2">
+                  <h1 class="heading-10 heading-10-small">joel</h1>
+                  <div class="college"><img src="/images/worcester.png" loading="lazy" alt="" class="image-24">
+                    <p class="paragraph-6">St Anne&#x27;s</p>
+                  </div>
+                </div><img src="/images/APPLY.jpg" loading="lazy" alt="" class="team-image">
                 <div class="role-descriptor">
                   <div class="div-block-34"></div>
                   <div class="div-block-35"></div>
@@ -204,37 +209,11 @@
                 <p class="paragraph-7">The <span class="text-span">OX RECORDS TEAM</span> run our record label Ox Records, and are also responsible for anything musical within the ORS, whether that be getting in contact with our musicians, facilitating collaboration or organising studio sessions.</p>
               </div>
             </div>
-            <div id="joel" class="team-member-3 member-with-dropdown">
-              <div class="name-and-college">
-                <h1 class="heading-10">joel</h1>
-                <div class="college"><img src="/images/worcester.png" loading="lazy" alt="" class="image-24">
-                  <p class="paragraph-6">St Peter&#x27;s</p>
-                </div>
-              </div><img src="/images/joel.jpg" loading="lazy" alt="" class="team-image">
+            <div id="josh" class="team-member-3 member-with-dropdown"><img src="/images/ourteam/josh.jpg" loading="lazy" alt="" class="team-image">
               <div class="role-descriptor">
                 <div class="div-block-34"></div>
                 <div class="div-block-35"></div>
-                <div class="text-block-6">// ARTIST&#x27;S OFFICER</div>
-              </div>
-            </div>
-            <div id="eve" class="team-member-3 member-with-dropdown"><img src="/images/eve.jpg" loading="lazy" alt="" class="team-image">
-              <div class="role-descriptor">
-                <div class="div-block-34"></div>
-                <div class="div-block-35"></div>
-                <div class="text-block-6">// PRODUCTION MANAGER</div>
-              </div>
-              <div class="name-and-college">
-                <h1 class="heading-10">eve</h1>
-                <div class="college"><img src="/images/worcester.png" loading="lazy" alt="" class="image-24">
-                  <p class="paragraph-6">Worcester</p>
-                </div>
-              </div>
-            </div>
-            <div id="josh" class="team-member-3 member-with-dropdown"><img src="/images/josh.jpg" loading="lazy" alt="" class="team-image">
-              <div class="role-descriptor">
-                <div class="div-block-34"></div>
-                <div class="div-block-35"></div>
-                <div class="text-block-6">// A&amp;R REP</div>
+                <div class="text-block-6">// OX RECORDS</div>
               </div>
               <div class="name-and-college">
                 <h1 class="heading-10">josh</h1>
@@ -243,52 +222,31 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="sub-team-3">
-            <div class="team-member-3 team-desc">
-              <div class="subteam-desc-3">
-                <h1 class="team-title">MEDIA &amp; MARKETING TEAM</h1>
-                <p class="paragraph-7">The <span class="text-span">MEDIA &amp; MARKETING TEAM</span> lead the music media aspect of Oxford's student-led music industry, creating aesthetic marketing, branding and social media material for all our events &amp; initiatives, and helping get the word out there about the society.</p>
-              </div>
-            </div>
-            <div id="catherine" class="team-member-3 member-with-dropdown">
+            <div id="momo" class="team-member-3 member-with-dropdown">
               <div class="name-and-college">
-                <h1 class="heading-10 catherine">catherine</h1>
+                <h1 class="heading-10">momo</h1>
                 <div class="college"><img src="/images/worcester.png" loading="lazy" alt="" class="image-24">
-                  <p class="paragraph-6">Mansfield</p>
+                  <p class="paragraph-6">St Hilda&#x27;s</p>
                 </div>
-              </div><img src="/images/catherine.jpg" loading="lazy" alt="" class="team-image">
+              </div><img src="/images/ourteam/momo.jpg" loading="lazy" alt="" class="team-image">
               <div class="role-descriptor">
                 <div class="div-block-34"></div>
                 <div class="div-block-35"></div>
-                <div class="text-block-6">// MARKETING OFFICER</div>
+                <div class="text-block-6">// OX RECORDS</div>
               </div>
             </div>
-            <div id="sofie" class="team-member-3 member-with-dropdown"><img src="/images/sofie.jpg" loading="lazy" alt="" class="team-image">
+            <div id="george" class="team-member-3 member-with-dropdown"><img src="/images/APPLY.jpg" loading="lazy" alt="" class="team-image">
               <div class="role-descriptor">
                 <div class="div-block-34"></div>
                 <div class="div-block-35"></div>
-                <div class="text-block-6">// SOCIAL MEDIA OFFICER</div>
+                <div class="text-block-6">// OX RECORDS</div>
               </div>
               <div class="name-and-college">
-                <h1 class="heading-10">sofie</h1>
+                <h1 class="heading-10">george</h1>
                 <div class="college"><img src="/images/worcester.png" loading="lazy" alt="" class="image-24">
-                  <p class="paragraph-6">St Peter&#x27;s</p>
+                  <p class="paragraph-6">St Anne&#x27;s</p>
                 </div>
               </div>
-            </div>
-            <div class="team-member-3">
-              <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=G96VzPWXk0-0uv5ouFLPkStGIYr39BFEswJRxaDWKN1UNDFXTEowWlMxRUU3VU0zTElWWUZIT1hWQi4u" target="_blank">
-                <img src="/images/APPLY.jpg" loading="lazy" alt="" class="team-image">
-                <div class="role-descriptor">
-                  <div class="div-block-34"></div>
-                  <div class="div-block-35"></div>
-                  <div class="text-block-6">// CREATIVE DIRECTOR</div>
-                </div>
-                <div class="name-and-college">
-                  <div class="college"></div>
-                </div>
-              </a>
             </div>
           </div>
         </div>
@@ -385,7 +343,6 @@ $('.team-selector').click(_ => {
     soundcloud rap
   </div>
   <div class="right-panel">
-    No info for Jake yet.
     <div class="committee-desc-subtext">
       // INDUSTRY INTERESTS<br>
       Literally Everything
@@ -399,33 +356,6 @@ $('.team-selector').click(_ => {
   </div>
 </div>
 
-<div id="description-wolff" class="committee-description">
-  <div class="left-panel">
-    // FAVOURITE ARTISTS<br>
-    Billy Joel, Abba, Queen, Polo and Pan
-    <br>&nbsp;<br>
-    // FAVOURITE ALBUMS<br>
-    Grace by Jeff Buckley, Folsom Prison by Johnny Cash, Night at the Opera by Queen
-    <br>&nbsp;<br>
-    // FAVOURITE GENRES<br>
-    House, Soundtracks, Rock
-    <br>&nbsp;<br>
-    // GUILTY PLEASURE(s)<br>
-    old school K3 (only my Dutch speaking boiz, galz and other palz will know what this refers to; if they had a solid childhood that is)
-  </div>
-  <div class="right-panel">
-    Hey! I'm the VP of the ORS! Together with the president I make sure that all the different strands of the society come together and is able to function properly for all you lovely (future) members out there! I am also the music soc pres of Corpus and mainly make film soundtracky stuff, pop covers and do some production! Wanna be EdGy like me? Join the ORS! (Also check my links for music on the moon's future covers/originals)
-    <div class="committee-desc-subtext">
-      // INDUSTRY INTERESTS<br>
-      Music production & composition, organising concerts and workshops. <br>A big goal of mine is to make the music industry a safe space for everyone so that nobody can be taken advantage of when they are only just entering the industry.
-    </div>
-    <div class="committee-desc-socials">
-      <a href="https://www.instagram.com/music_on_the_moon/" target="_blank"><img src="/images/socials/instagram-brands.svg" /></a>
-      <a href="https://www.instagram.com/wolff.wow/" target="_blank"><img src="/images/socials/instagram-brands.svg" /></a>
-      <a href="https://www.youtube.com/channel/UC6sqBXhAEOaKZZeM6RarZ9w" target="_blank"><img src="/images/socials/youtube-square-brands.svg" /></a>
-    </div>
-  </div>
-</div>
 
 <div id="description-dan" class="committee-description">
   <div class="left-panel">dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan dan</div>
@@ -447,7 +377,6 @@ $('.team-selector').click(_ => {
     Christmas music in July
   </div>
   <div class="right-panel">
-    No info for Riya yet.
     <div class="committee-desc-subtext">
       // INDUSTRY INTERESTS<br>
       Songwriting, Performance, Label Management
@@ -457,11 +386,6 @@ $('.team-selector').click(_ => {
       <a href="https://twitter.com/riyakatariax/" target="_blank"><img src="/images/socials/twitter-square-brands.svg" /></a>
     </div>
   </div>
-</div>
-
-<div id="description-rob" class="committee-description">
-  <div class="left-panel">???</div>
-  <div class="right-panel">No info for Rob yet.</div>
 </div>
 
 <div id="description-sam" class="committee-description">
@@ -486,71 +410,69 @@ $('.team-selector').click(_ => {
       Music production, graphic design
     </div>
     <div class="committee-desc-socials">
+      <a href="https://soundcloud.com/sb00sounds" target="_blank"><img src="/images/socials/soundcloud-brands.svg" /></a>
+      <a href="https://www.instagram.com/samboyer276/" target="_blank"><img src="/images/socials/instagram-brands.svg" /></a>
     </div>
   </div>
 </div>
 
-<div id="description-alex" class="committee-description">
-  <div class="left-panel">???</div>
-  <div class="right-panel">No info for Alex yet.</div>
-</div>
-
-<div id="description-immie" class="committee-description">
-  <div class="left-panel">
-    MML Italian and Linguistics, 4th year
-  </div>
-  <div class="right-panel">
-    Hi I'm Imogen, I'm from St Peter's studying Italian, and I'm on the events team with Ryan. I'm so happy there's a music society set up at Oxford and hope I can bring good ideas to it. I don't play any instruments myself, but listening to music is my favourite thing in the world. I'll listen to anything going but punk and folk are welcome any time of day.
-    <div class="committee-desc-socials">
-      <a href="https://www.instagram.com/barrettimogen/" target="_blank"><img src="/images/socials/instagram-brands.svg" /></a>
-      <a href="https://facebook.com/imogen.barrett" target="_blank"><img src="/images/socials/facebook-square-brands.svg" /></a>
-      <a href="https://www.linkedin.com/in/imogen-barrett-b245bb1a1/" target="_blank"><img src="/images/socials/linkedin-brands.svg" /></a>
-    </div>
-  </div>
-</div>
-
-<div id="description-joel" class="committee-description">
+<div id="description-giorgia" class="committee-description">
   <div class="left-panel">
     // FAVOURITE ARTISTS<br>
-    Bob Marley, the Beatles, RHCP, Calvin Harris
+    Florence + the Machine, Snail Mail, Molly Payton, Glass Animals
     <br>&nbsp;<br>
     // FAVOURITE ALBUMS<br>
-    Malibu - Anderson Paak, What Kinda Music - Tom Misch & Yussef Dayes, the Royal Scam - Steely Dan    <br>&nbsp;<br>
+    High as Hope, Valentine, Saint Cloud
+    <br>&nbsp;<br>
     // FAVOURITE GENRES<br>
-    Soul, R&B, Electronic
+    Indie/alternative, jazz, 'whatever the sad singer/songwriter at the piano genre is called lol'
     <br>&nbsp;<br>
     // GUILTY PLEASURE(s)<br>
-    80s cheese 🧀 🧀
-  </div>
+    Listening to old Disney Channel soundtracks, but I don't feel guilty about it!
+    </div>
   <div class="right-panel">
-  Hey! I’m Joel, a third year PPEist at St Peter’s and Artist’s Officer for the ORS. With the help of the OX Records team (Eve and Josh) I connect musicians with venues and events that need performers. I also help to promote and release Oxford based musicians’ projects! <br>
-  I play bass guitar in various bands and I love all types of music. At the moment I’m listening to Soul, R&B and some Electronic.
+    Hi! I'm Giorgia, a 2nd year English student at St Hilda's, and I'm the ORS secretary for this year! I love the spirit of this soc and the way it's trying to build up a strong student music community in Oxford, so am v excited to be part of the team :)<br>
+    My life has always revolved around music, but my favourite thing has to be the live performance scene (whether it's me on stage, or if I'm watching someone else). My Spotify wrapped was basically all indie artists, but if I had to meet just one, I'd choose Florence Welch in a heartbeat. I'm singing constantly, play just about enough piano to get by, and am very unsuccessfully trying to teach myself guitar!
     <div class="committee-desc-subtext">
       // INDUSTRY INTERESTS<br>
-      A&R work, music production, business strategy
+      Singing/songwriting, music journalism, broadcasting/radio
     </div>
     <div class="committee-desc-socials">
-      <a href="https://www.facebook.com/joel.gold.12" target="_blank"><img src="/images/socials/facebook-square-brands.svg" /></a>
+      <a href="https://www.instagram.com/giorgiaamusic/" target="_blank"><img src="/images/socials/instagram-brands.svg" /></a>
+      <a href="https://soundcloud.com/user-80283689" target="_blank"><img src="/images/socials/soundcloud-brands.svg" /></a>
     </div>
   </div>
 </div>
 
-<div id="description-eve" class="committee-description">
+<div id="description-momo" class="committee-description">
   <div class="left-panel">
-    Classics, 4th year
-  </div>
+    // FAVOURITE ARTISTS<br>
+    fat suit, Fiona Apple, Rejjie Snow, Phoebe Bridgers
+    <br>&nbsp;<br>
+    // FAVOURITE ALBUMS<br>
+    I Am A Bird Now - Antony and the Johnsons, The Book of Traps and Lessons - Kae Tempest, Hejira - Joni Mitchell
+    <br>&nbsp;<br>
+    // FAVOURITE GENRES<br>
+    Jazz Fusion, Indie Pop, House
+    <br>&nbsp;<br>
+    // GUILTY PLEASURE(s)<br>
+    listening to thank u next by Ariana grande 17 times a day
+    </div>
   <div class="right-panel">
-    I am a fourth year Classicist from London and part of the OxRecords Team, which is directly involved in running the ORS record label.  I love singing and songwriting and would like to try my hand at being an artist or songwriter after university, or get involved in Artists & Repertoire. I'm obsessed with writing lyrics and especially love The Wombats for theirs.
+  I'm a first yah music student at Hilda's, v excited to be part of OxRecords team. I've been playing violin and piano since I was very little, but want to get into getting to know artists and helping develop their musical output now. I'm into almost all music but I really really hate musicals.
+    <div class="committee-desc-subtext">
+      // INDUSTRY INTERESTS<br>
+      booking artists for gigs and putting on big raves and other underground events - forming subcultures and communities around music like there used to be before streaming platforms
+    </div>
     <div class="committee-desc-socials">
-      <a href="https://www.instagram.com/eve_rae_music/" target="_blank"><img src="/images/socials/instagram-brands.svg" /></a>
-      <a href="https://facebook.com/EveRaeMusic" target="_blank"><img src="/images/socials/facebook-square-brands.svg" /></a>
+    <a href="https://soundcloud.com/momo-ueda-445172255" target="_blank"><img src="/images/socials/soundcloud-brands.svg" /></a>
     </div>
   </div>
 </div>
 
 <div id="description-josh" class="committee-description">
   <div class="left-panel">
-    History and Spanish, 2nd year
+    History and Spanish
   </div>
   <div class="right-panel">
     I’m from Birmingham. I wanted to get involved to help grow a new and exciting society and give budding artists the opportunities they deserve. I’m into all music genres but my favourite is indie rock. My favourite band is The 1975.
@@ -561,13 +483,33 @@ $('.team-selector').click(_ => {
 </div>
 
 <div id="description-catherine" class="committee-description">
-  <div class="left-panel">???</div>
+  <div class="left-panel"></div>
   <div class="right-panel">No info for Catherine yet.</div>
+</div>
+<div id="description-ben" class="committee-description">
+  <div class="left-panel"></div>
+  <div class="right-panel">No info for Ben yet.</div>
+</div>
+<div id="description-momo" class="committee-description">
+  <div class="left-panel"></div>
+  <div class="right-panel">No info for Momo yet.</div>
+</div>
+<div id="description-george" class="committee-description">
+  <div class="left-panel"></div>
+  <div class="right-panel">No info for George yet.</div>
+</div>
+<div id="description-gavin" class="committee-description">
+  <div class="left-panel"></div>
+  <div class="right-panel">No info for Gavin yet.</div>
+</div>
+<div id="description-joel" class="committee-description">
+  <div class="left-panel"></div>
+  <div class="right-panel">No info for Joel yet.</div>
 </div>
 
 <div id="description-sofie" class="committee-description">
   <div class="left-panel">
-    English Language & Literature, 1st year
+    English Language & Literature
   </div>
   <div class="right-panel">
     Hi! I'm Sofie, the Social Media Officer for the ORS. I'm originally from Spain and I'm super excited to explore the important role social media plays in the world of music, especially in times of Covid, where live gigs and posters seem to have been replaced with livestreams, stories and posts. I love playing guitar and writing music, and spend most of my time listening to artists like The 1975, Phoebe Bridgers, John Mayer and HAIM.
