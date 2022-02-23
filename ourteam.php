@@ -193,7 +193,7 @@
                   <div class="college"><img src="/images/worcester.png" loading="lazy" alt="" class="image-24">
                     <p class="paragraph-6">St Anne&#x27;s</p>
                   </div>
-                </div><img src="/images/APPLY.jpg" loading="lazy" alt="" class="team-image">
+                </div><img src="/images/ourteam/joel.jpg" loading="lazy" alt="" class="team-image">
                 <div class="role-descriptor">
                   <div class="div-block-34"></div>
                   <div class="div-block-35"></div>
@@ -503,8 +503,16 @@ $('.team-selector').click(_ => {
   <div class="right-panel">No info for Gavin yet.</div>
 </div>
 <div id="description-joel" class="committee-description">
-  <div class="left-panel"></div>
-  <div class="right-panel">No info for Joel yet.</div>
+<div class="left-panel">
+    // FAVOURITE ARTISTS<br>
+    Idk please send recommendations
+  <div class="right-panel">
+      Hey everyone! I’m Joel and my role this year is to help run events with the ORS. I’m really looking forward to reloading music and mojitos as well as getting a regular jam/open mic night going for students around uni. I wanna get more talent on stage whether it’s singer/songwriters, bands or DJs. The Oxford music scene has big potential.
+    <div class="committee-desc-subtext">
+      // INDUSTRY INTERESTS<br>
+      Live shows/recording
+    </div>
+  </div>
 </div>
 
 <div id="description-sofie" class="committee-description">
