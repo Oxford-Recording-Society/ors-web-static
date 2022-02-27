@@ -77,7 +77,7 @@
                 <div class="text-block-6">// PRESIDENT</div>
               </div>
             </div>
-            <div id="ben" class="member-with-dropdown team-member-3"><img src="/images/APPLY.jpg" loading="lazy" alt="" class="team-image">
+            <div id="ben" class="member-with-dropdown team-member-3"><img src="/images/ourteam/ben.jpg" loading="lazy" alt="" class="team-image">
               <div class="role-descriptor">
                 <div class="div-block-34"></div>
                 <div class="div-block-35"></div>
@@ -482,13 +482,28 @@ $('.team-selector').click(_ => {
   </div>
 </div>
 
+<div id="description-ben" class="committee-description">
+<div class="left-panel">
+    // FAVOURITE ARTISTS<br>
+    J Dilla, Erykah Badu, Her’s, Bob Marley, Anderson .Paak
+    <br>&nbsp;<br>
+    // FAVOURITE ALBUMS<br>
+    2014 FHD, Milky Way, Fantastic Vol 2.10, Exodus, Song’s of Her’s
+    <br>&nbsp;<br>
+    // FAVOURITE GENRES<br>
+    Reggae and Dancehall, Hip Hop and Jazz Fusion, Indie Pop
+  </div>
+  <div class="right-panel">
+  Hey!! I’m Ben, new to the team and very excited to be ORS Vice Pres for this year. Currently a 2nd year Music student at chch, and can’t wait to put on some great events and workshops over the next year to introduce everyone to all aspects of the music industry. <br>
+  I was a pretty record-obsessed teenager, whether that be constantly booking artist gigs for local pubs and clubs, making DJ sets for friends’ parties, or listening to niche radio shows – I would love to foster a tight-knit musical community in Oxford and help create a successful student record label that represents the very best of Ox!! So pls do get in contact and submit your demos!
+    <div class="committee-desc-subtext">
+      // INDUSTRY INTERESTS<br>
+      A&R, Music Law, Journalism and Events Management</div>
+  </div>
+</div>
 <div id="description-catherine" class="committee-description">
   <div class="left-panel"></div>
   <div class="right-panel">No info for Catherine yet.</div>
-</div>
-<div id="description-ben" class="committee-description">
-  <div class="left-panel"></div>
-  <div class="right-panel">No info for Ben yet.</div>
 </div>
 <div id="description-momo" class="committee-description">
   <div class="left-panel"></div>
